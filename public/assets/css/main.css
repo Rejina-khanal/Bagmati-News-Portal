@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+:root {
+    --blue: #3064af;
+    --yellow: #fdb016;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    /* Hide scrollbars */
+}
+
+.bagmati-logo a img {
+    height: 5rem;
+    object-fit: cover;
+}
+
+.bagmati-footer-logo a img {
+    height: 90px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+/* live video styles */
+
+/*english nepali toggle end*/
+nav {
+    background: #2D3691;
+}
+
+/*nav link*/
+nav .navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 4rem;
+}
+
+/*social media icon*/
+.social-media h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+/*english button*/
+.english a {
+    text-decoration: none;
+    background: #EBEAEA;
+    color: var(--blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/*nepali button*/
+.nepali a {
+    text-decoration: none;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/*topheader date*/
+.date p {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+/*top header section content*/
+.header-top {
+    padding-top: 3rem;
+}
+
+/*top header link*/
+.header-top a {
+    font-size: 12px;
+}
+
+/*top header h2*/
+.header-top h2 a {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+/*top header padding*/
+header .top-header {
+    padding: 5px 4rem 10px;
+    height: 8rem;
+}
+
+/*top header image*/
+.top-header .logo img {
+    height: 8rem;
+    width: 40rem;
+    object-fit: cover;
+}
+
+
+/*footer*/
+footer {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(96.99deg, #FDB016 -5.69%, #8F8768 24.43%, #3064AF 105.51%);
+}
+
+/*footer nav*/
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+
+footer a:hover {
+    color: var(--yellow);
+}
+
+/*footer paragraph*/
+footer p {
+    font-size: 14px;
+}
+
+/*footer heading*/
+footer h6 {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+footer h3 {
+    font-size: 14px;
+    text-align: justify;
+    width: 98%;
+}
+
+footer .container h2 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer .footer-content {
+    margin-bottom: 1rem;
+}
+
+footer h3 {
+    line-height: 1.5;
+}
+
+footer .container {
+    width: 100%;
+}
+
+/*footer search form section end*/
+
+/*footer copyright section*/
+
+.copyright {
+    text-align: center;
+    border: 3px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*Our program paragraph*/
+
+/*footer end*/
+
+/*media query for mobile view*/
+@media only screen and (max-width: 480px) {
+
+    .english a {
+        padding: 6px 14px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .english {
+        margin-right: 20px;
+    }
+
+    .nepali a {
+        padding: 6px 14px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .date p {
+        font-size: 10px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .header-top {
+        padding-top: 1px;
+        padding-bottom: 5px;
+    }
+
+    .date {
+        height: 1rem;
+    }
+
+    .header-top a {
+        font-size: 10px;
+    }
+
+    .header-top h2 a {
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
+    header .top-header {
+        height: 4rem;
+        padding: 1rem;
+    }
+
+    .top-header .logo img {
+        height: 3rem;
+        width: 15rem;
+        object-fit: cover;
+    }
+
+    .top-header .logo {
+        height: 2rem;
+    }
+
+    /*hover effect*/
+    .navbar-nav a:hover {
+        border-bottom: 4px solid #FDB016;
+    }
+
+    /*footer*/
+    footer {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    /*footer container*/
+    footer .container {
+        width: 100%;
+    }
+
+    /*footer image*/
+    .bagmati-footer-logo a img {
+        height: 60px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+
+    /*footer about company*/
+    footer h3 {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    /*footer heading*/
+    footer h6 {
+        margin-top: 20px;
+    }
+
+    /*footer headings*/
+    footer .container h6 {
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    /*footer content*/
+    footer p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    /*footer link*/
+    footer p a {
+        padding-bottom: 1px;
+    }
+
+    /*read more in about company*/
+    footer .container h2 {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /**footer heading**/
+    footer h5 {
+        font-size: 35px;
+    }
+
+    .section {
+        padding-bottom: 15px;
+    }
+
+    .copyright {
+        height: 1rem;
+    }
+
+    /**footer copyright**/
+}
+
+/*media query for tablet and larger smart phone*/
+@media only screen and (min-width: 481px) and (max-width: 576px) {
+
+    /*footer*/
+    footer {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    footer .container {
+        width: 100%;
+    }
+
+    /*footer image*/
+    .bagmati-footer-logo a img {
+        height: 60px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+
+    /*footer about company*/
+    footer h3 {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    footer h6 {
+        margin-top: 20px;
+    }
+
+    /*footer headings*/
+    footer .container h6 {
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    /*footer content*/
+    footer p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    /*footer link*/
+    footer p a {
+        padding-bottom: 1px;
+    }
+
+    /*read more in about company*/
+    footer .container h2 {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /**footer heading**/
+    footer h5 {
+        font-size: 35px;
+    }
+
+    .section {
+        padding-bottom: 15px;
+    }
+
+    .copyright {
+        height: 1rem;
+    }
+
+    /**footer copyright**/
+
+
+}
+
+/*media query for tablet and larger smart phone*/
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /*footer*/
+    footer {
+        padding-top: 1rem;
+        width: 100%;
+    }
+
+    footer .container {
+        width: 100%;
+    }
+
+    /*footer image*/
+    .bagmati-footer-logo a img {
+        height: 70px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        object-fit: cover;
+    }
+
+    /*footer about company*/
+    footer h3 {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    footer h6 {
+        margin-top: 15px;
+    }
+
+    /*footer headings*/
+    footer .container h6 {
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    /*footer content*/
+    footer p {
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+
+    /*footer link*/
+    footer p a {
+        padding-bottom: 1px;
+    }
+
+    /*read more in about company*/
+    footer .container h2 {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /**footer heading**/
+    footer h5 {
+        font-size: 35px;
+    }
+
+    .section {
+        padding-bottom: 1rem;
+    }
+
+    .copyright {
+        height: 1rem;
+    }
+
+    /**footer copyright**/
+
+}
+
+/*larger tablet*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*heading top part*/
+    .header-top {
+        padding-top: 3rem;
+    }
+
+    /*top header padding*/
+    header .top-header {
+        padding: 5px 5px 5px 2rem;
+        height: 7rem;
+    }
+
+    /*nepali button*/
+    .nepali a {
+        padding: 5px 12px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    /*english button*/
+    .english a {
+        padding: 5px 12px;
+        border-radius: 5px;
+    }
+
+    /*top header image*/
+    .top-header .logo img {
+        height: 8rem;
+        width: 40rem;
+        object-fit: cover;
+    }
+
+    /*navbar*/
+    nav .navbar-nav {
+        color: white;
+        text-decoration: none;
+        margin-left: 2rem;
+    }
+
+    /*navbar link*/
+    nav .navbar-nav li a {
+        color: white;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+
+    /*header nav icon*/
+    .header-top h2 a {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .header-top h2 {
+        margin-left: 1rem;
+    }
+
+    /*footer*/
+    footer {
+        padding: 1rem 1rem 2rem 2rem;
+        width: 100%;
+    }
+
+    /*footer */
+    footer .container {
+        width: 100%;
+    }
+
+    /*footer image*/
+    .bagmati-footer-logo a img {
+        height: 80px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    /*footer about company*/
+    footer h3 {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    footer h6 {
+        margin-top: 30px;
+    }
+
+    /*footer headings*/
+    footer .container h6 {
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+
+    /*footer content*/
+    footer p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    /*footer link*/
+    footer p a {
+        padding-bottom: 1px;
+    }
+
+    /*read more in about company*/
+    footer .container h2 {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /**footer heading**/
+    footer h5 {
+        font-size: 35px;
+    }
+
+    .copyright {
+        height: 1rem;
+    }
+
+    /**footer copyright**/
+
+}
+
+/*laptop media query*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /*header part*/
+    header .top-header {
+        padding: 5px 4rem 10px;
+        height: 7rem;
+    }
+
+    /*nav link*/
+    nav .navbar-nav {
+        color: white;
+        text-decoration: none;
+        margin-left: 3rem;
+    }
+
+    /*navbar link*/
+    nav .navbar-nav li a {
+        color: white;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+
+    /*header icon*/
+    .header-top h2 a {
+        font-size: 20px;
+        padding-left: 3px;
+    }
+
+    /*header social median*/
+    .social-media {
+        margin-left: 10px;
+        float: inline-end;
+    }
+
+    /*header*/
+    .header-top {
+        margin-right: 1rem;
+    }
+
+    /*header date*/
+    .date p {
+        font-size: 10px;
+    }
+
+    /*footer*/
+    footer {
+        padding: 1rem 3rem 2rem 5rem;
+        width: 100%;
+    }
+
+    /*footer image*/
+    .bagmati-footer-logo a img {
+        height: 100px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    /*footer about company*/
+    footer h3 {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    footer h6 {
+        margin-top: 30px;
+    }
+
+    /*footer headings*/
+    footer .container h6 {
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+
+    /*footer content*/
+    footer p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    /*footer link*/
+    footer p a {
+        padding-bottom: 1px;
+    }
+
+    /*read more in about company*/
+    footer .container h2 {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /**footer heading**/
+    footer h5 {
+        font-size: 35px;
+    }
+
+    .copyright {
+        height: 1rem;
+    }
+
+    /**footer copyright**/
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    /*header navbar*/
+    header .navbar {
+        padding: 10px 4rem;
+    }
+
+    /*navbar link*/
+    nav .navbar-nav li a {
+        color: white;
+        text-decoration: none;
+        margin-right: 3rem;
+    }
+
+    /*social media icon*/
+    .header-top h2 a {
+        font-size: 25px;
+        padding-left: 5px;
+    }
+
+    /*footer*/
+    footer {
+        padding: 1rem 4rem;
+        width: 100%;
+    }
+
+    /*footer image*/
+    .bagmati-footer-logo a img {
+        height: 110px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    /*footer about company*/
+    footer h3 {
+        line-height: 1.6;
+    }
+
+    /*footer headings*/
+    footer .container h6 {
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+
+    /*footer content*/
+    footer p {
+        font-size: 14px;
+
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    /*footer link*/
+    footer p a {
+        padding-bottom: 1px;
+    }
+
+    /*read more in about company*/
+    footer .container h2 {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /**footer heading**/
+    footer h5 {
+        font-size: 35px;
+    }
+
+    .copyright {
+        height: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    /*header navbar*/
+    header .navbar {
+        padding: 10px 4rem;
+    }
+
+    /*footer*/
+    footer {
+        padding: 1rem 4rem;
+        width: 100%;
+    }
+
+    /*footer image*/
+    .bagmati-footer-logo a img {
+        height: 110px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    /*footer about company*/
+    footer h3 {
+        line-height: 1.6;
+    }
+
+    /*footer headings*/
+    footer .container h6 {
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+
+    /*footer content*/
+    footer p {
+        font-size: 14px;
+
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    /*footer link*/
+    footer p a {
+        padding-bottom: 1px;
+    }
+
+    /*read more in about company*/
+    footer .container h2 {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /**footer heading**/
+    footer h5 {
+        font-size: 35px;
+    }
+
+    .copyright {
+        height: 1rem;
+    }
+}

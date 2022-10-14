@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+:root {
+    --blue: #3064af;
+    --yellow: #fdb016;
+    --white: white;
+}
+
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+/*body section*/
+.body_section {
+    background: #F5F5F5;
+    padding: 2rem 0;
+}
+
+/*samachar section*/
+.samachar {
+    background-color: white;
+    margin: 0 4rem 0 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+/*main samachar image*/
+.main_samachar img {
+    height: 28rem;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+/*main samachar detail*/
+.main_samachar_detail {
+    padding: 4rem;
+}
+
+/*main samachar tittle*/
+.main_samachar_detail h3 {
+    font-weight: bold;
+    font-size: 28px;
+    width: 85%;
+}
+
+/*main samachar time*/
+.main_samachar_detail h5 {
+    font-size: 14px;
+    width: 85%;
+    color: #766F6F;
+}
+
+/*main samachar detail*/
+.main_samachar_detail p {
+    padding-top: 1rem;
+    font-size: 18px;
+    width: 85%;
+    color: #766F6F;
+}
+
+/*samachar image*/
+.samachar_news img {
+    height: 14rem;
+    width: 100%;
+}
+
+/*samachar title*/
+.samachar_news h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1rem 1px;
+}
