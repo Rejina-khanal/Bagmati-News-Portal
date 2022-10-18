@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+/*pradesh section*/
+.pradesh_page_samachar {
+    background-color: white;
+    margin: 0 4rem 0 4rem;
+    padding: 2rem 4rem 1rem 4rem;
+}
+
+/*body section*/
+.body_section {
+    background: #F5F5F5;
+    padding: 2rem 0;
+}
+
+/*pradesh nav*/
+.pradesh-main-news-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*pradesh nav link*/
+.pradesh-main-news-nav li {
+    float: left;
+}
+
+.pradesh-main-news-nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 21px;
+    text-decoration: none;
+    color: #2D3691;
+}
+
+/*pradesh nav hover*/
+.pradesh-main-news-nav li a:hover {
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/*pradesh main news*/
+.pradesh_main_news {
+    background-color: #D9D9D9;
+    margin-bottom: 2rem;
+}
+
+.pradesh_main_news .card {
+    background-color: #D9D9D9;
+    border-radius: 1px;
+    border-color: #D9D9D9;
+}
+
+/*pradesh main news detail*/
+.pradesh_main_news_detail {
+    overflow: hidden;
+    padding-top: 5rem;
+}
+
+/*pradesh main news title*/
+.pradesh_main_news_detail h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/*pradesh main news date*/
+.pradesh_main_news_detail p {
+    font-size: 15px;
+    color: #898888;
+}
+
+/*pradesh main news detail*/
+.pradesh_main_news_detail h2 {
+    font-size: 14px;
+    color: #423F3F
+}
+
+/*pradesh main news image*/
+.pradesh_main_news img {
+    width: 100%;
+    height: 22rem;
+    object-fit: cover;
+}
+
+/*pradesh news detail*/
+.pradesh_news_detail {
+    overflow: hidden;
+    padding-top: 2rem;
+}
+
+/*pradesh news*/
+.pradesh_news {
+    padding-bottom: 2rem;
+}
+
+/*pradesh news image*/
+.pradesh_news img {
+    width: 100%;
+    height: 11rem;
+    object-fit: cover;
+}
+
+/*pradesh news title*/
+.pradesh_news h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*pradesh news date*/
+.pradesh_news p {
+    color: #898888;
+    font-size: 12px;
+}

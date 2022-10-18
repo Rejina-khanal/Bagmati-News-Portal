@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
-:root {
-    --blue: #3064af;
-    --yellow: #fdb016;
-    --white: white;
-}
-
 * {
     font-family: 'Mukta', sans-serif;
 }
@@ -43,20 +37,6 @@
     font-size: 30px;
     font-weight: bold;
     position: relative;
-}
-
-.heading {
-    display: flex;
-}
-
-.blue_line {
-    border-top: 4px solid #2D3691;
-    width: 70px;
-}
-
-.one {
-    margin-top: 1rem;
-    margin-left: 10px;
 }
 
 /*mukhya samachar section*/
@@ -122,7 +102,6 @@
 /*advertisement image section*/
 .advertisement img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -166,7 +145,7 @@
 
 /*business section link*/
 .business_section a {
-    background-color: var(--blue);
+    background-color: #3064af;
     text-decoration: none;
     color: white;
     padding: 2px 22px;
@@ -175,7 +154,7 @@
 }
 
 .business_section a:hover {
-    background-color: var(--blue);
+    background-color: #3064af;
     color: white;
 }
 
@@ -390,7 +369,6 @@
 /*advertisement image*/
 .advertisement_section img {
     width: 100%;
-    height: 100%;
     margin-bottom: 2rem;
     object-fit: cover;
 }

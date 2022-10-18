@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+.heading {
+    display: flex;
+}
+
+.blue_line {
+    border-top: 4px solid #2D3691;
+    width: 70px;
+}
+
+.one {
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+/*.sahitya_body_section {
+    background-color: white;
+    margin: 0 4rem 0 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+}*/
+
+/*business body section start*/
+.business_body_section {
+    background: #F5F5F5;
+    padding: 2rem;
+}
+
+.business_body {
+    background-color: white;
+    margin: 0 4rem 1rem 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+/*bank news body*/
+.bank_body {
+    margin: 1rem 4rem 0 4rem;
+}
+
+.bank_section {
+    background-color: white;
+    padding: 1rem 2rem;
+}
+
+/*bank main news card*/
+.bank_main_new .card {
+    background-color: #D9D9D9;
+    border-radius: 1px;
+    border-color: #D9D9D9;
+    height: 18rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.bank_main_new .container {
+    padding: 3rem 2rem 1rem 0;
+}
+
+/*bank main news title*/
+.bank_main_new h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/*bank main news date*/
+.bank_main_new p {
+    font-size: 14px;
+    color: #898888;
+}
+
+/*bank main news detail*/
+.bank_main_new h2 {
+    font-size: 16px;
+}
+
+/*bank main news image*/
+.bank_main_new img {
+    height: 18rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*bank other news image*/
+.bank_news img {
+    height: 7rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*bank news detail*/
+.bank_news_detail {
+    height: 7rem;
+    padding: 7px;
+    overflow: hidden;
+}
+
+/*bank news title*/
+.bank_news h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*bank news paragraph*/
+.bank_news p {
+    font-size: 12px;
+    color: #898888;
+}
+
+/*market news section*/
+.market_section {
+    background-color: white;
+    padding: 1rem;
+}
+
+/*matket news section image*/
+.market_section img {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 1rem;
+}
+
+.market_news {
+    padding: 1rem 0;
+    border-bottom: 2px solid grey;
+}
+
+/*market news title*/
+.market_news h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*market news date*/
+.market_news p {
+    font-size: 14px;
+    color: #898888;
+}
+
+/*paryatan news section*/
+.paryatan_body {
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: 1rem 4rem 0 4rem;
+}
+
+/*paryatan image*/
+.paryatan_body_image {
+    position: relative;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    object-fit: cover;
+}
+
+.paryatan_body_image img {
+    height: 27rem;
+    width: 100%;
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+
+/* chutaunubhayoki image text */
+.paryatan_body_image_text {
+    position: absolute;
+    bottom: 0px;
+    height: 5rem;
+    color: white;
+}
+
+.paryatan_body_image_text h4 {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*paryatan image*/
+.paryatan_body_imagee {
+    position: relative;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    object-fit: cover;
+}
+
+.paryatan_body_imagee img {
+    height: 12rem;
+    width: 100%;
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+
+/* chutaunubhayoki image text */
+.paryatan_body_imagee_text {
+    position: absolute;
+    bottom: 0px;
+    height: 5rem;
+    color: white;
+}
+
+.paryatan_body_imagee_text h4 {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*rojgar body*/
+.rojgar_body {
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: 1rem 4rem 0 4rem;
+}
+
+/*rojgar image*/
+.rojgar_news img {
+    height: 14rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*rojgar title*/
+.rojgar_news h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1rem 1px;
+}
+
+.antarbarta_body {
+    padding-top: 1rem;
+}
+
+/*antarbarta news image*/
+.antarbarta_card img {
+    object-fit: cover;
+    width: 100%;
+    height: 5rem;
+}
+
+/*antarbarta news card*/
+.antarbarta_card {
+    height: 6rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid grey;
+    padding: 0 0 1rem 0;
+}
+
+/*antarbarta news detail*/
+.antarbarta_detail {
+    padding: 1rem 5px;
+}
+
+.antarbarta_card h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*business section link*/
+.business_section_news a {
+    background-color: #2D3691;
+    text-decoration: none;
+    color: white;
+    padding: 2px 22px;
+    border-radius: 12px;
+    cursor: auto;
+}
+
+.business_section_news a:hover {
+    background-color: #2D3691;
+    color: white;
+}
+
+/*business section news image*/
+.business_section_news img {
+    width: 100%;
+    height: 10rem;
+    padding-bottom: 1rem;
+    object-fit: cover;
+}
+
+/*business section news title*/
+.business_section_news h4 {
+    padding-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*business section news time*/
+.business_section_news p {
+    color: #766F6F;
+    font-size: 14px;
+}

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/home.css') }}">
+
 @extends('layouts.app')
 
 @section('section')
@@ -12,8 +14,8 @@
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
@@ -22,13 +24,19 @@
                     <!--Slider Images-->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{ asset('assets/images/slider.jpg') }}" class="d-block w-100" alt="...">
+                            <a href="">
+                                <img src="{{ asset('assets/images/slider.jpg') }}" class="d-block w-100" alt="...">
+                            </a>
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('assets/images/slider.jpg') }}" class="d-block w-100" alt="...">
+                            <a href="">
+                                <img src="{{ asset('assets/images/slider.jpg') }}" class="d-block w-100" alt="...">
+                            </a>
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('assets/images/slider.jpg') }}" class="d-block w-100" alt="...">
+                            <a href="">
+                                <img src="{{ asset('assets/images/slider.jpg') }}" class="d-block w-100" alt="...">
+                            </a>
                         </div>
                     </div>
 
@@ -57,7 +65,9 @@
                     </div>
                     <div class="col-6 main_mukhya_samachar_image ">
                         <!--Mukhya samachar image-->
-                        <img src="{{ asset('assets/images/mukhyasamachr.jpg') }}" class="img-fluid" alt="">
+                        <a href="">
+                            <img src="{{ asset('assets/images/mukhyasamachr.jpg') }}" class="img-fluid" alt="">
+                        </a>
                         <!--Mukhya samachar title-->
                         <h3>७७ वर्षपछिको हिरोसिमा र नागासाकी</h3>
                         <!--Mukhya samachar date-->
@@ -73,8 +83,10 @@
                         <div class="row">
                             <div class="col-5 mukhya_samachar_image">
                                 <!--Mukhya samachar image-->
-                                <img src="{{ asset('assets/images/mukhyasamachar1.jpg') }}" class="img-fluid"
-                                    alt="">
+                                <a href="">
+                                    <img src="{{ asset('assets/images/mukhyasamachar1.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                             </div>
                             <div class="col-7">
                                 <!--Mukhya samachar title-->
@@ -86,8 +98,10 @@
                         <div class="row">
                             <div class="col-5 mukhya_samachar_image">
                                 <!--Mukhya samachar image-->
-                                <img src="{{ asset('assets/images/mukhyasamachar2.jpg') }}" class="img-fluid"
-                                    alt="">
+                                <a href="">
+                                    <img src="{{ asset('assets/images/mukhyasamachar2.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                             </div>
                             <div class="col-7">
                                 <!--Mukhya samachar title-->
@@ -98,8 +112,10 @@
                         <div class="row">
                             <div class="col-5 mukhya_samachar_image">
                                 <!--Mukhya samachar image-->
-                                <img src="{{ asset('assets/images/mukhyasamachar3.jpg') }}" class="img-fluid"
-                                    alt="">
+                                <a href="">
+                                    <img src="{{ asset('assets/images/mukhyasamachar3.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                             </div>
                             <div class="col-7">
                                 <!--Mukhya samachar title-->
@@ -110,8 +126,10 @@
                         <div class="row">
                             <div class="col-5 mukhya_samachar_image">
                                 <!--Mukhya samachar image-->
-                                <img src="{{ asset('assets/images/mukhyasamachar4.jpg') }}" class="img-fluid"
-                                    alt="">
+                                <a href="">
+                                    <img src="{{ asset('assets/images/mukhyasamachar4.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                             </div>
                             <div class="col-7">
                                 <!--Mukhya samachar title-->
@@ -147,7 +165,10 @@
                                 <!--Samachar part start-->
                                 <div class="col-4">
                                     <!--Samachar Image-->
-                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
+                                    <a href="">
+                                        <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--Samachar title-->
                                     <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                                 </div>
@@ -156,7 +177,10 @@
                                 <!--Samachar part start-->
                                 <div class="col-4">
                                     <!--Samachar Image-->
-                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
+                                    <a href="">
+                                        <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--Samachar title-->
                                     <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                                 </div>
@@ -165,8 +189,10 @@
                                 <!--Samachar part start-->
                                 <div class="col-4">
                                     <!--Samachar Image-->
-                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="">
+                                        <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--Samachar title-->
                                     <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                                 </div>
@@ -175,8 +201,10 @@
                                 <!--Samachar part start-->
                                 <div class="col-4">
                                     <!--Samachar Image-->
-                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="">
+                                        <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--Samachar title-->
                                     <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                                 </div>
@@ -276,8 +304,10 @@
                                                 <div class="row pradesh_section_main">
                                                     <div class="col-6">
                                                         <!--Pradesh 1 main news image-->
-                                                        <img src="{{ asset('assets/images/pradesh1.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/pradesh1.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <!--Pradesh 1 main news detail-->
                                                     <div class="col-6">
@@ -296,8 +326,10 @@
                                                 <div class="row ">
                                                     <div class="col-6">
                                                         <!--Pradesh 1 other news image-->
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
 
                                                     <!--Pradesh 1 other news detail-->
@@ -311,24 +343,10 @@
                                                 <div class="row ">
                                                     <div class="col-6">
                                                         <!--Pradesh 1 other news image-->
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-
-                                                    <!--Pradesh 1 other news detail-->
-                                                    <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
-                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-6 pradesh_news">
-                                                <div class="row ">
-                                                    <div class="col-6">
-                                                        <!--Pradesh 1 other news image-->
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
 
                                                     <!--Pradesh 1 other news detail-->
@@ -343,8 +361,28 @@
                                                 <div class="row ">
                                                     <div class="col-6">
                                                         <!--Pradesh 1 other news image-->
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+
+                                                    <!--Pradesh 1 other news detail-->
+                                                    <div class="col-6">
+                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 pradesh_news">
+                                                <div class="row ">
+                                                    <div class="col-6">
+                                                        <!--Pradesh 1 other news image-->
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
 
                                                     <!--Pradesh 1 other news detail-->
@@ -368,8 +406,10 @@
                                             <div class="col-12">
                                                 <div class="row pradesh_section_main">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/pradesh2.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/pradesh2.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
@@ -387,8 +427,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -399,21 +441,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
-                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-6 pradesh_news">
-                                                <div class="row ">
-                                                    <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -425,8 +456,25 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 pradesh_news">
+                                                <div class="row ">
+                                                    <div class="col-6">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -447,8 +495,10 @@
                                             <div class="col-12">
                                                 <div class="row pradesh_section_main">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/pradesh3.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/pradesh3.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
@@ -466,8 +516,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -478,21 +530,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
-                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-6 pradesh_news">
-                                                <div class="row ">
-                                                    <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -504,8 +545,25 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 pradesh_news">
+                                                <div class="row ">
+                                                    <div class="col-6">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -526,8 +584,10 @@
                                             <div class="col-12">
                                                 <div class="row pradesh_section_main">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/pradesh4.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/pradesh4.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
@@ -545,8 +605,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -557,21 +619,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
-                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-6 pradesh_news">
-                                                <div class="row ">
-                                                    <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -583,8 +634,25 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 pradesh_news">
+                                                <div class="row ">
+                                                    <div class="col-6">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -605,8 +673,10 @@
                                             <div class="col-12">
                                                 <div class="row pradesh_section_main">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/pradesh5.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/pradesh5.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
@@ -624,8 +694,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -636,21 +708,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
-                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-6 pradesh_news">
-                                                <div class="row ">
-                                                    <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -662,8 +723,25 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 pradesh_news">
+                                                <div class="row ">
+                                                    <div class="col-6">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -684,8 +762,10 @@
                                             <div class="col-12">
                                                 <div class="row pradesh_section_main">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/pradesh6.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/pradesh6.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
@@ -703,8 +783,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -715,21 +797,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
-                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-6 pradesh_news">
-                                                <div class="row ">
-                                                    <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -741,8 +812,25 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 pradesh_news">
+                                                <div class="row ">
+                                                    <div class="col-6">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -763,8 +851,10 @@
                                             <div class="col-12">
                                                 <div class="row pradesh_section_main">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/pradesh7.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/pradesh7.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
@@ -782,8 +872,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
@@ -791,6 +883,21 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="col-6 pradesh_news">
+                                                <div class="row ">
+                                                    <div class="col-6">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
@@ -807,21 +914,10 @@
                                             <div class="col-6 pradesh_news">
                                                 <div class="row ">
                                                     <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
-                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-6 pradesh_news">
-                                                <div class="row ">
-                                                    <div class="col-6">
-                                                        <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                            class="img-fluid" alt="">
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
                                                     </div>
                                                     <div class="col-6">
                                                         <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>

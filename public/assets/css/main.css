@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 :root {
@@ -7,7 +8,7 @@
 }
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mukta', sans-serif;
 }
 
 body {
@@ -17,14 +18,12 @@ body {
 
 .bagmati-logo a img {
     height: 5rem;
-    object-fit: cover;
 }
 
 .bagmati-footer-logo a img {
     height: 90px;
     margin-top: 24px;
     margin-bottom: 20px;
-    object-fit: cover;
 }
 
 /* live video styles */
@@ -39,6 +38,11 @@ nav .navbar-nav li a {
     color: white;
     text-decoration: none;
     margin-right: 4rem;
+}
+
+nav .navbar-nav li a:hover {
+    color: #dd474c;
+    /* font-size: 110%;*/
 }
 
 /*social media icon*/
@@ -100,7 +104,6 @@ header .top-header {
 .top-header .logo img {
     height: 8rem;
     width: 40rem;
-    object-fit: cover;
 }
 
 
@@ -158,6 +161,7 @@ footer .container {
 
 /*footer copyright section*/
 
+
 .copyright {
     text-align: center;
     border: 3px;
@@ -169,6 +173,26 @@ footer .container {
 /*Our program paragraph*/
 
 /*footer end*/
+.heading {
+    display: flex;
+}
+
+.blue_line {
+    border-top: 4px solid #2D3691;
+    width: 70px;
+}
+
+.one {
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+.heading h1 {
+    font-weight: bold;
+    font-size: 34px;
+    font-weight: bold;
+    position: relative;
+}
 
 /*media query for mobile view*/
 @media only screen and (max-width: 480px) {
@@ -221,7 +245,6 @@ footer .container {
     .top-header .logo img {
         height: 3rem;
         width: 15rem;
-        object-fit: cover;
     }
 
     .top-header .logo {
@@ -249,7 +272,6 @@ footer .container {
         height: 60px;
         margin-top: 15px;
         margin-bottom: 10px;
-        object-fit: cover;
     }
 
     /*footer about company*/
@@ -320,7 +342,6 @@ footer .container {
         height: 60px;
         margin-top: 15px;
         margin-bottom: 10px;
-        object-fit: cover;
     }
 
     /*footer about company*/
@@ -392,7 +413,6 @@ footer .container {
         height: 70px;
         margin-top: 15px;
         margin-bottom: 15px;
-        object-fit: cover;
     }
 
     /*footer about company*/
@@ -476,7 +496,6 @@ footer .container {
     .top-header .logo img {
         height: 8rem;
         width: 40rem;
-        object-fit: cover;
     }
 
     /*navbar*/
@@ -519,7 +538,6 @@ footer .container {
         height: 80px;
         margin-top: 35px;
         margin-bottom: 20px;
-        object-fit: cover;
     }
 
     /*footer about company*/
@@ -624,7 +642,6 @@ footer .container {
         height: 100px;
         margin-top: 35px;
         margin-bottom: 20px;
-        object-fit: cover;
     }
 
     /*footer about company*/
@@ -704,7 +721,6 @@ footer .container {
         height: 110px;
         margin-top: 35px;
         margin-bottom: 20px;
-        object-fit: cover;
     }
 
     /*footer about company*/
@@ -767,7 +783,6 @@ footer .container {
         height: 110px;
         margin-top: 35px;
         margin-bottom: 20px;
-        object-fit: cover;
     }
 
     /*footer about company*/

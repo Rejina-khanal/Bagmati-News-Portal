@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+/*body section*/
+.health_body_section {
+    background: #F5F5F5;
+    padding: 2rem 0;
+}
+
+/*Main health news section*/
+.main_health_section {
+    background-color: white;
+    margin: 0 4rem 0 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+/*main health news image*/
+.main_health_section .health_body img {
+    width: 100%;
+    height: 28rem;
+    object-fit: cover;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/*health main news heading*/
+.main_health_section h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*health image*/
+.health_news img {
+    height: 14rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*health title*/
+.health_news h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1rem 1px;
+}
+
+/*covid news section*/
+.covid_body {
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: 1rem 4rem 0 4rem;
+}
+
+/*covid image*/
+.covid_body_image {
+    position: relative;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    object-fit: cover;
+}
+
+/*covid news image*/
+.covid_body_image img {
+    height: 27rem;
+    width: 100%;
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+
+/* covid news image text */
+.covid_body_image_text {
+    position: absolute;
+    bottom: 0px;
+    height: 5rem;
+    color: white;
+}
+
+.covid_body_image_text h4 {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*tips news*/
+.tips_body {
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: 1rem 4rem 0 4rem;
+}
+
+/*tips news image*/
+.tips_card img {
+    object-fit: cover;
+    width: 100%;
+    height: 9rem;
+}
+
+/*tips news card*/
+.tips_card {
+    height: 10rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid grey;
+}
+
+/*tips detail*/
+.tips_detail {
+    padding: 2rem 10px;
+}
+
+.tips_card h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tips_card p {
+    color: #898888;
+    font-size: 14px;
+}
+
+.tips_main_news {
+    padding: 0 2rem;
+}
+
+/*antarbarta news image*/
+.antarbarta_card img {
+    object-fit: cover;
+    width: 100%;
+    height: 6rem;
+}
+
+/*antarbarta news card*/
+.antarbarta_card {
+    height: 7rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid grey;
+}
+
+/*antarbarta news detail*/
+.antarbarta_detail {
+    padding: 1rem 5px;
+}
+
+.antarbarta_card h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*prabash news */
+.prabash_card {
+    border-bottom: 2px solid grey;
+}
+
+/*prabash news detail*/
+.prabash_detail {
+    padding: 1rem 5px 5px 5px;
+}
+
+.prabash_card h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.prabash_card p {
+    color: #898888;
+    font-size: 14px;
+}
+
+/*bhansama ausadhi image*/
+.bhanshama_ausadhi img {
+    height: 12rem;
+    width: 100%;
+}

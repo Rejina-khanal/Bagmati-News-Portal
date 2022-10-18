@@ -13,7 +13,7 @@
 }
 
 /*body section*/
-.body_section {
+.samachar_body_section {
     background: #F5F5F5;
     padding: 2rem 0;
 }
@@ -30,6 +30,7 @@
     height: 28rem;
     width: 100%;
     padding-bottom: 2rem;
+    object-fit: cover;
 }
 
 /*main samachar detail*/
@@ -63,11 +64,12 @@
 .samachar_news img {
     height: 14rem;
     width: 100%;
+    object-fit: cover;
 }
 
 /*samachar title*/
 .samachar_news h3 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     padding: 1rem 1px;
 }
