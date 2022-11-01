@@ -50,7 +50,7 @@
             <!--Bank news section start-->
             <section class="bank_body">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-9 col-xl-9">
                         <div class="bank_section">
                             <div class="heading">
                                 <h1 class="line">बैँक / वित्त</h1>
@@ -61,7 +61,7 @@
                             <div class="bank_main_new">
                                 <div class="card">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-6 gx-2">
                                             <a href="">
                                                 <!--Main bank news image-->
                                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="d-block w-100"
@@ -69,7 +69,7 @@
                                             </a>
                                         </div>
                                         <!--Main bank news detail-->
-                                        <div class="col-6">
+                                        <div class="col-6 gx-2">
                                             <div class="container">
                                                 <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
                                                 <p>३ भाद्र २०७९, शुक्रबार</p>
@@ -89,7 +89,7 @@
                             <div class="row bank_news">
                                 <div class="col-6">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-7 gx-2">
                                             <a href="">
                                                 <!--bank news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" class="d-block w-100"
@@ -97,7 +97,7 @@
                                             </a>
                                         </div>
                                         <!--bank news detail-->
-                                        <div class="col-5 bank_news_detail">
+                                        <div class="col-5 gx-2 bank_news_detail">
                                             <h3>
                                                 कति छ आज सुन चाँदीको मूल्य ?
                                             </h3>
@@ -108,7 +108,7 @@
 
                                 <div class="col-6">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-7 gx-2">
                                             <a href="">
                                                 <!--bank news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" class="d-block w-100"
@@ -116,7 +116,7 @@
                                             </a>
                                         </div>
                                         <!--bank news detail-->
-                                        <div class="col-5 bank_news_detail">
+                                        <div class="col-5 gx-2 bank_news_detail">
                                             <h3>
                                                 कति छ आज सुन चाँदीको मूल्य ?
                                             </h3>
@@ -129,7 +129,7 @@
                     </div>
 
                     <!--Market section news start-->
-                    <div class="col-3">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                         <div class=" market_section">
                             <div class="heading">
                                 <h1 class="line">मार्केट</h1>
@@ -174,7 +174,7 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="d-block w-100" alt="...">
@@ -185,7 +185,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="d-block w-100" alt="...">
@@ -196,7 +196,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 gx-"4>
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="d-block w-100" alt="...">
@@ -218,7 +218,7 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 rojgar_news gx-3">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="d-block w-100"
                                 alt="...">
@@ -226,35 +226,35 @@
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 rojgar_news gx-3">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="d-block w-100"
                                 alt="..."> </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 rojgar_news gx-3">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="d-block w-100"
                                 alt="..."> </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 rojgar_news gx-3">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="d-block w-100"
                                 alt="..."> </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 rojgar_news gx-3">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="d-block w-100"
                                 alt="..."> </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 rojgar_news gx-3">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="d-block w-100"
                                 alt="..."> </a>

@@ -33,7 +33,7 @@
                 <!--other samachar section-->
                 <div class="row">
                     <!--Samachar news-->
-                    <div class="col-4 samachar_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 samachar_news">
                         <!--Samachar image-->
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
@@ -43,7 +43,7 @@
                     </div>
 
                     <!--Samachar news-->
-                    <div class="col-4 samachar_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 samachar_news">
                         <!--Samachar image-->
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
@@ -53,7 +53,7 @@
                     </div>
 
                     <!--Samachar news-->
-                    <div class="col-4 samachar_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 samachar_news">
                         <!--Samachar image-->
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
@@ -63,7 +63,7 @@
                     </div>
 
                     <!--Samachar news-->
-                    <div class="col-4 samachar_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 samachar_news">
                         <!--Samachar image-->
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
@@ -73,7 +73,7 @@
                     </div>
 
                     <!--Samachar news-->
-                    <div class="col-4 samachar_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 samachar_news">
                         <!--Samachar image-->
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
@@ -83,7 +83,7 @@
                     </div>
 
                     <!--Samachar news-->
-                    <div class="col-4 samachar_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 samachar_news">
                         <!--Samachar image-->
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
@@ -93,7 +93,7 @@
                     </div>
 
                     <!--Samachar news-->
-                    <div class="col-4 samachar_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 samachar_news">
                         <!--Samachar image-->
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
@@ -103,7 +103,7 @@
                     </div>
 
                     <!--Samachar news-->
-                    <div class="col-4 samachar_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 samachar_news">
                         <!--Samachar image-->
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
@@ -113,7 +113,7 @@
                     </div>
 
                     <!--Samachar news-->
-                    <div class="col-4 samachar_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 samachar_news">
                         <!--Samachar image-->
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">

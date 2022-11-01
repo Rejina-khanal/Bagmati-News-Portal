@@ -21,7 +21,7 @@
                     </div>
                     <div class="row">
                         <!--Main news detail-->
-                        <div class="col-8 home_main_detail">
+                        <div class="col-7 col-sm-8 col-md-8 col-lg-8 col-xl-8 home_main_detail">
                             <p>संसद् र समाजमा जस्तै सामाजिक सञ्जालमा समेत विधेयकको पक्ष र विपक्षमा बहस र चर्चा चुलिएको छ ।
                                 नेपाली नागरिकसँग विवाह गरेर
                                 आउने महिलाले तत्कालै अङ्गीकृत नागरिकता पाउने लगायत प्रावधानका सन्दर्भमा माओवादीको विवाद
@@ -184,7 +184,7 @@
                         </div>
 
                         <!--Containing Sifarish, advertisement, khabar-->
-                        <div class="col-4">
+                        <div class="col-5 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                             <!--Sifarish section start-->
                             <div class="sifarish">
                                 <div class="heading">
@@ -193,19 +193,19 @@
                                 </div>
                                 <!--Sifarish news-->
                                 <div class="row sifarish_news">
-                                    <div class="col-5">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
                                         <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
                                     </div>
-                                    <div class="col-7">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
                                         <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
                                     </div>
                                 </div>
                                 <!--Sifarish news-->
                                 <div class="row sifarish_news">
-                                    <div class="col-5">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
                                         <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
                                     </div>
-                                    <div class="col-7">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
                                         <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
                                     </div>
                                 </div>
@@ -227,21 +227,21 @@
                                 </div>
                                 <!--khabar news-->
                                 <div class="row sifarish_news">
-                                    <div class="col-5">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
                                         <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
 
                                     </div>
-                                    <div class="col-7">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
                                         <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
                                     </div>
                                 </div>
                                 <!--khabar news-->
                                 <div class="row sifarish_news">
-                                    <div class="col-5">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
                                         <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
 
                                     </div>
-                                    <div class="col-7">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
                                         <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
                                     </div>
                                 </div>
@@ -270,20 +270,20 @@
                 </div>
                 <!--Sambandit khabar news-->
                 <div class="row">
-                    <div class="col-4 sambandit_khabar_news">
-                        <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 sambandit_khabar_news"> <img
+                            src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
                         <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
                     </div>
-                    <div class="col-4 sambandit_khabar_news">
-                        <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 sambandit_khabar_news"> <img
+                            src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
                         <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
                     </div>
-                    <div class="col-4 sambandit_khabar_news">
-                        <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 sambandit_khabar_news"> <img
+                            src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
                         <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
                     </div>
-                    <div class="col-4 sambandit_khabar_news">
-                        <img src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 sambandit_khabar_news"> <img
+                            src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
                         <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
                     </div>
                 </div>
@@ -298,7 +298,7 @@
                 </div>
                 <!--trending section-->
                 <div class="row">
-                    <div class="col-4 trending_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending_news">
                         <div class="row">
                             <div class="col-2">
                                 <a href="#">१</a>
@@ -310,7 +310,7 @@
                         <hr class="trending_line">
                     </div>
 
-                    <div class="col-4 trending_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending_news">
                         <div class=" row">
                             <div class="col-2">
                                 <a href="#">२</a>
@@ -322,7 +322,7 @@
                         <hr class="trending_line">
                     </div>
 
-                    <div class="col-4 trending_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending_news">
                         <div class=" row">
                             <div class="col-2">
                                 <a href="#">३</a>
@@ -334,7 +334,7 @@
                         <hr class="trending_line">
                     </div>
 
-                    <div class="col-4 trending_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending_news">
                         <div class="row">
                             <div class="col-2">
                                 <a href="#">४</a>
@@ -346,7 +346,7 @@
                         <hr class="trending_line">
                     </div>
 
-                    <div class="col-4 trending_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending_news">
                         <div class=" row">
                             <div class="col-2">
                                 <a href="#">५</a>
@@ -358,7 +358,7 @@
                         <hr class="trending_line">
                     </div>
 
-                    <div class="col-4 trending_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending_news">
                         <div class=" row">
                             <div class="col-2">
                                 <a href="#">६</a>
@@ -370,7 +370,7 @@
                         <hr class="trending_line">
                     </div>
 
-                    <div class="col-4 trending_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending_news">
                         <div class=" row">
                             <div class="col-2">
                                 <a href="#">७</a>
@@ -382,7 +382,7 @@
                         <hr class="trending_line">
                     </div>
 
-                    <div class="col-4 trending_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending_news">
                         <div class=" row">
                             <div class="col-2">
                                 <a href="#">८</a>
@@ -394,7 +394,7 @@
                         <hr class="trending_line">
                     </div>
 
-                    <div class="col-4 trending_news">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending_news">
                         <div class=" row">
                             <div class="col-2">
                                 <a href="#">९</a>
@@ -416,7 +416,7 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 gx-5">
                         <div class="chutaunuBhayoKi_image">
                             <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
                             <div class="chutaunuBhayoKi_image_text">
@@ -424,7 +424,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 gx-5">
                         <div class="chutaunuBhayoKi_image">
                             <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
                             <div class="chutaunuBhayoKi_image_text">
@@ -433,7 +433,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 gx-5">
                         <div class="chutaunuBhayoKi_image">
                             <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
                             <div class="chutaunuBhayoKi_image_text">

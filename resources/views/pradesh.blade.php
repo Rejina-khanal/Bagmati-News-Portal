@@ -43,14 +43,14 @@
                                 <div class="pradesh_main_news">
                                     <div class="card">
                                         <div class="row">
-                                            <div class="col-7">
+                                            <div class="col-6">
                                                 <!--Pradesh main news image-->
                                                 <a href="">
                                                     <img src="{{ asset('assets/images/swastha.jpg') }}" alt="Avatar">
                                                 </a>
                                             </div>
                                             <!--Pradesh main news detail-->
-                                            <div class="col-5 ">
+                                            <div class="col-6">
                                                 <div class="pradesh_main_news_detail">
                                                     <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
                                                     <p>३ भाद्र २०७९, शुक्रबार</p>
@@ -69,12 +69,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -85,12 +85,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -101,12 +101,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -117,12 +117,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -171,12 +171,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -187,12 +187,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -203,12 +203,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -219,12 +219,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -272,12 +272,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -288,12 +288,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -304,12 +304,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -320,12 +320,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -368,17 +368,18 @@
                                     </div>
                                 </div>
 
+
                                 <!--Pradesh other news part start-->
                                 <div class="row">
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -389,12 +390,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -405,12 +406,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -421,12 +422,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -474,12 +475,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -490,12 +491,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -506,12 +507,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -522,12 +523,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -575,12 +576,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -591,12 +592,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -607,12 +608,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -623,12 +624,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -676,12 +677,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -692,12 +693,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -708,12 +709,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>
@@ -724,12 +725,12 @@
                                     <!--Pradesh other news-->
                                     <div class="col-6 pradesh_news">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                                 <!--Pradesh other news image-->
                                                 <img src="{{ asset('assets/images/samachar.jpg') }}" alt="Avatar">
                                             </div>
                                             <!--Pradesh other news detail-->
-                                            <div class="col-6 pradesh_news_detail">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news_detail">
                                                 <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
                                                 <p>३ भाद्र २०७९, शुक्रबार
                                                 </p>

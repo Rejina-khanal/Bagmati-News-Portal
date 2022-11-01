@@ -32,13 +32,6 @@
     object-fit: cover;
 }
 
-/*body section heading*/
-.body_section h1 {
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-}
-
 /*mukhya samachar section*/
 .mukhya_samachar {
     background-color: white;
@@ -495,9 +488,705 @@
     padding-top: 10px;
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .body_section {
+        background: #F5F5F5;
+        padding: 1rem 0;
+    }
 
-@media only screen and (min-width: 480px) and (max-width: 576px) {}
+    .slider {
+        background-color: white;
+        margin: 0 2rem 1rem 2rem;
+        padding: 1rem;
+    }
+
+    /*mukhya samachar section*/
+    .mukhya_samachar {
+        background-color: white;
+        margin: 0 2rem 0 2rem;
+    }
+
+    /*mukhya samachar body section*/
+    .mukhya_samachar_body {
+        padding: 1rem;
+    }
+
+    /*slider heading*/
+    .slider h2 {
+        font-size: 18px;
+    }
+
+    /*carousal image*/
+    .carousel-inner .carousel-item img {
+        height: 16rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*mukhya samachar main image*/
+    .main_mukhya_samachar_image img {
+        height: 10rem;
+        width: 100%;
+    }
+
+    /*main mukhya samachar title*/
+    .main_mukhya_samachar_image h3 {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    /*main mukhya samachar date*/
+    .main_mukhya_samachar_image h5 {
+        font-size: 12px;
+    }
+
+    /*main mukhya samachar detail*/
+    .main_mukhya_samachar_image p {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    /*mukhya samachar image*/
+    .mukhya_samachar_image img {
+        height: 3rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*mukhya samachar title*/
+    .mukhya_samachar_body h4 {
+        font-size: 11px;
+        font-weight: bold;
+        padding: 0px;
+        text-shadow: 0px 0px #c9c5c5;
+    }
+
+    /*samachar section*/
+    .samachar {
+        margin: 0 42px 0 42px;
+    }
+
+    /*samachar section image*/
+    .samachar_section img {
+        padding-top: 10px;
+        height: 5rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*samachar title*/
+    .samachar_section h4 {
+        font-size: 10px;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+
+    .samachar .trending_section {
+        background-color: white;
+        margin-bottom: 1rem;
+        padding: 5px;
+        margin-left: 0;
+    }
+
+    /*trending image news title*/
+    .trending_image_text h4 {
+        padding: 5px;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+
+    .trending_image_text {
+        position: absolute;
+        bottom: 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    .trending_image img {
+        height: 8rem;
+    }
+
+    /*trending news title*/
+    .trending_news h4 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /*trending news date*/
+    .trending_news p {
+        font-size: 10px;
+    }
+
+    /*trending news*/
+    .trending_news {
+        padding-top: 10px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid #aca6a6;
+    }
+
+    /*business main image*/
+    .business_section_main img {
+        height: 8rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*business section type*/
+    .business_section a {
+        padding: 1px 6px;
+        border-radius: 12px;
+        cursor: auto;
+        font-size: 8px;
+    }
+
+    /*business news main title*/
+    .business_section_main h4 {
+        padding-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    /*business main news date*/
+    .business_section_main p {
+        font-size: 10px;
+    }
+
+    /*business news title*/
+    .business_section_news h4 {
+        padding-top: 5px;
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+    /*business news date*/
+    .business_section_news p {
+        font-size: 8px;
+    }
+
+    /*business news image*/
+    .business_section_news img {
+        width: 100%;
+        height: 5rem;
+        padding-bottom: 10px;
+        object-fit: cover;
+    }
+
+    /*pradesh news link*/
+    .pradesh-news-nav li a {
+        display: block;
+        text-align: center;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    /*pradesh news link hover*/
+    .pradesh-news-nav li a:hover {
+        border-radius: 0px;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    /*pradesh news image*/
+    .pradesh_section_main img {
+        height: 10rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*pradesh main news title*/
+    .pradesh_section_main h3 {
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
+    /*pradesh main news date*/
+    .pradesh_section_main p {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: #766F6F;
+        font-size: 8px;
+    }
+
+    /*pradesh main news detai;*/
+    .pradesh_section_main h2 {
+        font-size: 10px;
+    }
+
+    /*pradesh news image*/
+    .pradesh_news img {
+        height: 4rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*pradesh news title*/
+    .pradesh_news h4 {
+        font-size: 10px;
+        padding-top: 4px;
+        font-weight: bold;
+    }
+
+    /*pradesh news date*/
+    .pradesh_news p {
+        color: #766F6F;
+        font-size: 9px;
+    }
+
+    /*artha news section image*/
+    .artha_section img {
+        height: 6rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*artha news section title*/
+    .artha_section h4 {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .swastha {
+        margin-bottom: 5px;
+    }
+
+    /*samachar section*/
+    .swastha {
+        margin: 0 2rem 0 42px;
+    }
+
+    /*swastha news image*/
+    .swastha_image img {
+        height: 12rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*swastha image text*/
+    .swastha_image_text h4 {
+        padding: 5px;
+        font-size: 12px;
+        justify-items: center;
+        font-weight: lighter;
+    }
+
+    /*manoranjan image */
+    .manoranjan_image img {
+        height: 11rem;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    /*manoranjan image title*/
+    .manoranjan_image_text h4 {
+        padding: 5px;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+
+    /*manoranjan half image*/
+    .manoranjan_images img {
+        height: 5rem;
+        margin-bottom: 10px;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+
+    /*advertisement*/
+    .advertisement {
+        padding: 5px 0;
+        margin: 0 2rem 0 2rem;
+    }
+
+    .advertisement_section {
+        margin-bottom: 2px;
+        margin-left: 5px;
+        background-color: white;
+    }
+
+    .advertisement_section img {
+        width: 100%;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+
+    /*khabar news section*/
+    .khabar_section {
+        background-color: white;
+        padding: 1rem;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .khabar_news {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #CDC9C9;
+    }
+
+    /*khabar news image*/
+    .khabar_news img {
+        height: 4rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*khabar news title*/
+    .khabar_news p {
+        font-weight: 500;
+        font-size: 10px;
+        padding-top: 5px;
+        margin-bottom: 3px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+    .slider {
+        background-color: white;
+        margin: 0 2rem 1rem 2rem;
+        padding: 1rem;
+    }
+
+    /*mukhya samachar section*/
+    .mukhya_samachar {
+        background-color: white;
+        margin: 0 2rem 0 2rem;
+    }
+
+    /*mukhya samachar body section*/
+    .mukhya_samachar_body {
+        padding: 1rem;
+    }
+
+    /*slider heading*/
+    .slider h2 {
+        font-size: 20px;
+    }
+
+    /*carousal image*/
+    .carousel-inner .carousel-item img {
+        height: 17rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*mukhya samachar main image*/
+    .main_mukhya_samachar_image img {
+        height: 13rem;
+        width: 100%;
+    }
+
+    /*main mukhya samachar title*/
+    .main_mukhya_samachar_image h3 {
+        font-size: 16px;
+        padding-top: 1rem;
+    }
+
+    /*main mukhya samachar date*/
+    .main_mukhya_samachar_image h5 {
+        font-size: 12px;
+    }
+
+    /*main mukhya samachar detail*/
+    .main_mukhya_samachar_image p {
+        font-size: 13px;
+    }
+
+    /*mukhya samachar image*/
+    .mukhya_samachar_image img {
+        height: 4rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*mukhya samachar title*/
+    .mukhya_samachar_body h4 {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0px;
+        text-shadow: 1px 1px #c9c5c5;
+    }
+
+    /*samachar section*/
+    .samachar {
+        margin: 0 42px 0 42px;
+    }
+
+    /*samachar section image*/
+    .samachar_section img {
+        padding-top: 10px;
+        height: 5rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*samachar title*/
+    .samachar_section h4 {
+        font-size: 10px;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+
+    .samachar .trending_section {
+        background-color: white;
+        margin-bottom: 1rem;
+        padding: 5px;
+        margin-left: 0;
+    }
+
+    /*trending image news title*/
+    .trending_image_text h4 {
+        padding: 5px;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+
+    .trending_image_text {
+        position: absolute;
+        bottom: 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    .trending_image img {
+        height: 8rem;
+    }
+
+    /*trending news title*/
+    .trending_news h4 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /*trending news date*/
+    .trending_news p {
+        font-size: 10px;
+    }
+
+    /*trending news*/
+    .trending_news {
+        padding-top: 10px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid #aca6a6;
+    }
+
+    /*business main image*/
+    .business_section_main img {
+        height: 8rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*business section type*/
+    .business_section a {
+        padding: 1px 6px;
+        border-radius: 12px;
+        cursor: auto;
+        font-size: 8px;
+    }
+
+    /*business news main title*/
+    .business_section_main h4 {
+        padding-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    /*business main news date*/
+    .business_section_main p {
+        font-size: 10px;
+    }
+
+    /*business news title*/
+    .business_section_news h4 {
+        padding-top: 5px;
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+    /*business news date*/
+    .business_section_news p {
+        font-size: 8px;
+    }
+
+    /*business news image*/
+    .business_section_news img {
+        width: 100%;
+        height: 5rem;
+        padding-bottom: 10px;
+        object-fit: cover;
+    }
+
+    /*pradesh news link*/
+    .pradesh-news-nav li a {
+        display: block;
+        text-align: center;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    /*pradesh news link hover*/
+    .pradesh-news-nav li a:hover {
+        border-radius: 0px;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    /*pradesh news image*/
+    .pradesh_section_main img {
+        height: 10rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*pradesh main news title*/
+    .pradesh_section_main h3 {
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
+    /*pradesh main news date*/
+    .pradesh_section_main p {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: #766F6F;
+        font-size: 8px;
+    }
+
+    /*pradesh main news detai;*/
+    .pradesh_section_main h2 {
+        font-size: 10px;
+    }
+
+    /*pradesh news image*/
+    .pradesh_news img {
+        height: 4rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*pradesh news title*/
+    .pradesh_news h4 {
+        font-size: 10px;
+        padding-top: 4px;
+        font-weight: bold;
+    }
+
+    /*pradesh news date*/
+    .pradesh_news p {
+        color: #766F6F;
+        font-size: 9px;
+    }
+
+    /*artha news section image*/
+    .artha_section img {
+        height: 6rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*artha news section title*/
+    .artha_section h4 {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .swastha {
+        margin-bottom: 5px;
+    }
+
+    /*samachar section*/
+    .swastha {
+        margin: 0 2rem 0 42px;
+    }
+
+    /*swastha news image*/
+    .swastha_image img {
+        height: 12rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*swastha image text*/
+    .swastha_image_text h4 {
+        padding: 5px;
+        font-size: 12px;
+        justify-items: center;
+        font-weight: lighter;
+    }
+
+    /*manoranjan image */
+    .manoranjan_image img {
+        height: 11rem;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    /*manoranjan image title*/
+    .manoranjan_image_text h4 {
+        padding: 5px;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+
+    /*manoranjan half image*/
+    .manoranjan_images img {
+        height: 5rem;
+        margin-bottom: 10px;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+
+    /*advertisement*/
+    .advertisement {
+        padding: 5px 0;
+        margin: 0 2rem 0 2rem;
+    }
+
+    .advertisement_section {
+        margin-bottom: 2px;
+        margin-left: 5px;
+        background-color: white;
+    }
+
+    .advertisement_section img {
+        width: 100%;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+
+    /*khabar news section*/
+    .khabar_section {
+        background-color: white;
+        padding: 1rem;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .khabar_news {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #CDC9C9;
+    }
+
+    /*khabar news image*/
+    .khabar_news img {
+        height: 4rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*khabar news title*/
+    .khabar_news p {
+        font-weight: 500;
+        font-size: 10px;
+        padding-top: 5px;
+        margin-bottom: 3px;
+    }
+
+}
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
     .slider {
@@ -516,6 +1205,333 @@
     .mukhya_samachar_body {
         padding: 1rem;
     }
+
+    /*slider heading*/
+    .slider h2 {
+        font-size: 23px;
+    }
+
+    /*carousal image*/
+    .carousel-inner .carousel-item img {
+        height: 20rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*mukhya samachar main image*/
+    .main_mukhya_samachar_image img {
+        height: 16rem;
+        width: 100%;
+    }
+
+    /*main mukhya samachar title*/
+    .main_mukhya_samachar_image h3 {
+        font-size: 17px;
+        padding-top: 1rem;
+    }
+
+    /*main mukhya samachar date*/
+    .main_mukhya_samachar_image h5 {
+        font-size: 13px;
+    }
+
+    /*main mukhya samachar detail*/
+    .main_mukhya_samachar_image p {
+        font-size: 14px;
+    }
+
+    /*mukhya samachar image*/
+    .mukhya_samachar_image img {
+        height: 5rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*mukhya samachar title*/
+    .mukhya_samachar_body h4 {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 5px;
+        text-shadow: 1px 2px #c9c5c5;
+    }
+
+    /*samachar section*/
+    .samachar {
+        margin: 0 42px 0 42px;
+    }
+
+    /*samachar section image*/
+    .samachar_section img {
+        padding-top: 1rem;
+        height: 6rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*samachar title*/
+    .samachar_section h4 {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .samachar .trending_section {
+        background-color: white;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        margin-left: 0;
+    }
+
+    /*trending image news title*/
+    .trending_image_text h4 {
+        padding: 5px;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+
+    .trending_image_text {
+        position: absolute;
+        bottom: 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    .trending_image img {
+        height: 8rem;
+    }
+
+    /*trending news title*/
+    .trending_news h4 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /*trending news date*/
+    .trending_news p {
+        font-size: 10px;
+    }
+
+    /*trending news*/
+    .trending_news {
+        padding-top: 10px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid #aca6a6;
+    }
+
+    /*business main image*/
+    .business_section_main img {
+        height: 10rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*business section type*/
+    .business_section a {
+        padding: 2px 12px;
+        border-radius: 12px;
+        cursor: auto;
+        font-size: 10px;
+    }
+
+    /*business news main title*/
+    .business_section_main h4 {
+        padding-top: 1rem;
+        font-size: 18px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    /*business main news date*/
+    .business_section_main p {
+        font-size: 12px;
+    }
+
+    /*business news title*/
+    .business_section_news h4 {
+        padding-top: 5px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /*business news date*/
+    .business_section_news p {
+        font-size: 10px;
+    }
+
+    /*business news image*/
+    .business_section_news img {
+        width: 100%;
+        height: 7rem;
+        padding-bottom: 10px;
+        object-fit: cover;
+    }
+
+    /*pradesh news link*/
+    .pradesh-news-nav li a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /*pradesh news link hover*/
+    .pradesh-news-nav li a:hover {
+        border-radius: 5px;
+        margin: 2px;
+        cursor: pointer;
+    }
+
+    /*pradesh news image*/
+    .pradesh_section_main img {
+        height: 12rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*pradesh main news title*/
+    .pradesh_section_main h3 {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+
+    /*pradesh main news date*/
+    .pradesh_section_main p {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: #766F6F;
+        font-size: 10px;
+    }
+
+    /*pradesh main news detai;*/
+    .pradesh_section_main h2 {
+        font-size: 10px;
+    }
+
+    /*pradesh news image*/
+    .pradesh_news img {
+        height: 5rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*pradesh news title*/
+    .pradesh_news h4 {
+        font-size: 10px;
+        padding-top: 2px;
+        font-weight: lighter;
+    }
+
+    /*pradesh news date*/
+    .pradesh_news p {
+        color: #766F6F;
+        font-size: 9px;
+    }
+
+    /*artha news section image*/
+    .artha_section img {
+        height: 6rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*artha news section title*/
+    .artha_section h4 {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .swastha {
+        margin-bottom: 5px;
+    }
+
+    /*samachar section*/
+    .swastha {
+        margin: 0 2rem 0 42px;
+    }
+
+    /*swastha news image*/
+    .swastha_image img {
+        height: 14rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*swastha image text*/
+    .swastha_image_text h4 {
+        padding: 5px;
+        font-size: 12px;
+        justify-items: center;
+        font-weight: lighter;
+    }
+
+
+    /*manoranjan image */
+    .manoranjan_image img {
+        height: 11rem;
+        object-fit: cover;
+    }
+
+    /*manoranjan image title*/
+    .manoranjan_image_text h4 {
+        padding: 5px;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+
+    /*manoranjan half image*/
+    .manoranjan_images img {
+        height: 5rem;
+        margin-bottom: 1rem;
+        object-fit: cover;
+    }
+
+    /*advertisement*/
+    .advertisement {
+        padding: 5px 0;
+        margin: 0 2rem 0 2rem;
+    }
+
+    .advertisement_section {
+        margin-bottom: 2px;
+        margin-left: 5px;
+        background-color: white;
+    }
+
+    .advertisement_section img {
+        width: 100%;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+
+    /*khabar news section*/
+    .khabar_section {
+        background-color: white;
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .khabar_news {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #CDC9C9;
+    }
+
+    /*khabar news image*/
+    .khabar_news img {
+        height: 4rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*khabar news title*/
+    .khabar_news p {
+        font-weight: lighter;
+        font-size: 10px;
+        padding-top: 5px;
+        margin-bottom: 3px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -736,6 +1752,10 @@
         padding-top: 7px;
     }
 
+    .swastha {
+        margin-bottom: 5px;
+    }
+
     /*swastha news image*/
     .swastha_image img {
         height: 14rem;
@@ -834,7 +1854,6 @@
     /*asvertisement poster*/
     .advertisement img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
     }
 

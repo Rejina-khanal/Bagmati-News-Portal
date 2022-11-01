@@ -16,7 +16,7 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -27,7 +27,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -38,7 +38,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-3">
                         <div class="row">
                             <div class="col-12">
                                 <div class="paryatan_body_imagee">
@@ -76,7 +76,7 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -87,7 +87,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -101,45 +101,45 @@
                     <!--Antarbarta section start-->
                     <div class="col-4 antarbarta_body">
                         <div class="row antarbarta_card">
-                            <div class="col-6">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <a href="">
                                     <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
                                 </a>
                             </div>
-                            <div class="col-6 antarbarta_detail">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 antarbarta_detail">
                                 <h3>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h3>
                             </div>
                         </div>
 
                         <div class="row antarbarta_card">
-                            <div class="col-6">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <a href="">
                                     <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
                                 </a>
                             </div>
-                            <div class="col-6 antarbarta_detail">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 antarbarta_detail">
                                 <h3>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h3>
                             </div>
                         </div>
 
                         <div class="row antarbarta_card">
-                            <div class="col-6">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <a href="">
                                     <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
                                 </a>
                             </div>
-                            <div class="col-6 antarbarta_detail">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 antarbarta_detail">
                                 <h3>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h3>
                             </div>
                         </div>
 
                         <div class="row antarbarta_card">
-                            <div class="col-6">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <a href="">
                                     <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
                                 </a>
                             </div>
-                            <div class="col-6 antarbarta_detail">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 antarbarta_detail">
                                 <h3>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h3>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -168,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -179,7 +179,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -228,19 +228,19 @@
 
                             <!--bank other news-->
                             <div class="row bank_news">
-                                <div class="col-4 business_section_news">
+                                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 business_section_news">
                                     <img src="{{ asset('assets/images/lionardo.png') }}" alt="Avatar">
                                     <a href="#">रोजगार</a>
                                     <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                                     <p>३ भाद्र २०७९, शुक्रबार</p>
                                 </div>
-                                <div class="col-4 business_section_news">
+                                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 business_section_news">
                                     <img src="{{ asset('assets/images/lionardo.png') }}" alt="Avatar">
                                     <a href="#">रोजगार</a>
                                     <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                                     <p>३ भाद्र २०७९, शुक्रबार</p>
                                 </div>
-                                <div class="col-4 business_section_news">
+                                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 business_section_news">
                                     <img src="{{ asset('assets/images/lionardo.png') }}" alt="Avatar">
                                     <a href="#">रोजगार</a>
                                     <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
@@ -317,7 +317,7 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -328,7 +328,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -339,7 +339,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
@@ -361,42 +361,42 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>

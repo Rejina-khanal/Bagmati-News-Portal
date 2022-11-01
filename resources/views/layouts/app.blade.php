@@ -29,23 +29,26 @@
 
 
 <header>
-    <!--top header start-->
+
     <div class="row top-header">
-        <div class="col-12 col-md-4 col-lg-3 col-xl-4 header-top date d-none d-md-block d-lg-block d-xl-block">
+        <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-4 header-top date d-none d-md-block d-lg-block d-xl-block">
             <p>२६ श्रावण २०७९, बिहिबार/ Thu Aug 11, 2022</p>
         </div>
-        <div class="col-6 col-md-3 col-lg-3 col-xl-4 logo">
-            <img src="{{ asset('assets/images/footerLogo-removebg-preview.png') }}" class="img-fluid" alt="">
+        <div class="col-7 col-sm-8 col-md-4 col-lg-4 col-xl-4 logo">
+            <img src="{{ asset('assets/images/bagmati-header.png') }}" class="img-fluid" alt="">
         </div>
-        <div class="col-2 col-md-1 col-lg-1 col-xl-1 header-top english gx-5">
+        <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 header-top english gx-5">
             <a href="#">English</a>
         </div>
-        <div class="col-2 col-md-1 col-lg-1 col-xl-1 header-top nepali gx-5">
+        <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 header-top nepali gx-5">
             <a href="#">नेपाली</a>
         </div>
+        <hr class="linee d-md-none d-lg-none d-xl-none ">
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-4 header-top date d-md-none d-lg-none d-xl-none">
+            <p>२६ श्रावण २०७९, बिहिबार/ Thu Aug 11, 2022</p>
+        </div>
 
-
-        <div class="col-8 col-md-3 col-lg-3 col-xl-2 header-top social-media d-none d-md-block d-lg-block d-xl-block">
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2 header-top social-media">
             <h2>
                 <a href="https://www.instagram.com/bagmatitvhd/"><i class="fa-brands fa-instagram fa-xs"></i></a>
                 <a href="https://www.facebook.com/bagmatitv"><i class="fa-brands fa-facebook fa-xs"></i></a>
@@ -56,15 +59,18 @@
 
         </div>
     </div>
-    <!--top header end-->
 
-    <!--navbar section start-->
     <nav class="navbar navbar-expand-md ">
         <div class="container">
+            <a class="navbar-brand small-logo d-md-none d-lg-none d-xl-none" href="#">
+                <!--<img src="{{ asset('assets/images/logo.png') }}" alt="" height="40px" width="50px"
+                    class="d-inline-block align-text-top">-->
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav justify-content-center">
                     <li class="nav-item text-white">
@@ -98,7 +104,7 @@
             </div>
         </div>
     </nav>
-    <!--navbar section end-->
+
 </header>
 
 @yield('section')

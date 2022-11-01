@@ -16,9 +16,9 @@ body {
     /* Hide scrollbars */
 }
 
-/*.bagmati-logo a img {
+.bagmati-logo a img {
     height: 5rem;
-}*/
+}
 
 .bagmati-footer-logo a img {
     height: 90px;
@@ -61,11 +61,6 @@ nav .navbar-nav li a:hover {
     font-weight: bold;
 }
 
-.english a:hover {
-    color: var(--blue);
-    border: 2px solid var(--blue);
-}
-
 /*nepali button*/
 .nepali a {
     text-decoration: none;
@@ -74,12 +69,6 @@ nav .navbar-nav li a:hover {
     padding: 10px 20px;
     font-weight: bold;
     border-radius: 5px;
-}
-
-.nepali a:hover {
-    color: red;
-    background: white;
-    border: 2px solid red;
 }
 
 /*topheader date*/
@@ -113,9 +102,10 @@ header .top-header {
 
 /*top header image*/
 .top-header .logo img {
-    height: 4rem;
-    width: 16rem;
+    height: 8rem;
+    width: 40rem;
 }
+
 
 /*footer*/
 footer {
@@ -206,111 +196,63 @@ footer .container {
 /*media query for mobile view*/
 @media only screen and (max-width: 480px) {
 
-
-    /*nav link*/
-    nav .navbar-nav li a {
-        color: black;
-        text-decoration: none;
-        margin-right: 4rem;
-    }
-
-    nav .container .small-logo .img {
-        height: 2rem;
-        width: 2rem;
-    }
-
-    /* Thick red border */
-    hr.linee {
-        border-top: 2px solid var(--blue);
-        margin-top: 7px;
-    }
-
-    /*header image*/
-    .top-header .logo img {
-        height: 3rem;
-        width: 20rem;
-    }
-
-    /*english button */
-    .top-header .english {
-        margin-top: 5px;
-    }
-
-    /*nepali button*/
-    .top-header .nepali {
-        margin-top: 5px;
-    }
-
-    /*date*/
-    .date p {
-        font-size: 10px;
-        font-weight: bold;
-        padding-top: 1rem;
-    }
-
-    /*social media icon*/
-    .social-media h2 a {
-        color: black;
-        text-decoration: none;
-    }
-
-    /*english button*/
     .english a {
-        text-decoration: none;
-        background: #EBEAEA;
-        color: var(--blue);
-        padding: 5px 10px;
+        padding: 6px 14px;
         border-radius: 5px;
-        font-weight: lighter;
-        font-size: 10px;
+        font-weight: bold;
     }
 
-    /*english hover*/
-    .english a:hover {
-        color: var(--blue);
-        border: 2px solid var(--blue);
+    .english {
+        margin-right: 20px;
     }
 
-    /*nepali button*/
     .nepali a {
-        text-decoration: none;
-        background: red;
-        color: white;
-        padding: 5px 12px;
-        font-weight: lighter;
+        padding: 6px 14px;
+        font-weight: bold;
         border-radius: 5px;
-        font-size: 10px;
     }
 
-    /*nepali hover*/
-    .nepali a:hover {
-        color: red;
-        background: white;
-        border: 2px solid red;
-    }
-
-    /*topheader date*/
     .date p {
         font-size: 10px;
         font-weight: bold;
-        padding-top: 0;
+        padding-bottom: 10px;
     }
 
-    /*top header section content*/
     .header-top {
-        padding-top: 5px;
+        padding-top: 1px;
+        padding-bottom: 5px;
     }
 
-    /*top header h2*/
+    .date {
+        height: 1rem;
+    }
+
+    .header-top a {
+        font-size: 10px;
+    }
+
     .header-top h2 a {
         font-size: 25px;
-        padding-left: 7px;
+        padding-left: 10px;
     }
 
-    /*top header padding*/
     header .top-header {
-        padding: 10px 20px 10px;
-        height: 120px;
+        height: 4rem;
+        padding: 1rem;
+    }
+
+    .top-header .logo img {
+        height: 3rem;
+        width: 15rem;
+    }
+
+    .top-header .logo {
+        height: 2rem;
+    }
+
+    /*hover effect*/
+    .navbar-nav a:hover {
+        border-bottom: 4px solid #FDB016;
     }
 
     /*footer*/
@@ -380,7 +322,7 @@ footer .container {
 
     /**footer copyright**/
     .heading h1 {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
         position: relative;
     }
@@ -388,105 +330,6 @@ footer .container {
 
 /*media query for tablet and larger smart phone*/
 @media only screen and (min-width: 481px) and (max-width: 576px) {
-
-    /* Thick red border */
-    hr.linee {
-        border-top: 2px solid var(--blue);
-        margin-top: 5px;
-    }
-
-    /*header image*/
-    .top-header .logo img {
-        height: 3rem;
-        width: 20rem;
-    }
-
-    /*english button */
-    .top-header .english {
-        margin-top: 5px;
-    }
-
-    /*nepali button*/
-    .top-header .nepali {
-        margin-top: 5px;
-    }
-
-    /*date*/
-    .date p {
-        font-size: 10px;
-        font-weight: bold;
-        padding-top: 1rem;
-    }
-
-    /*social media icon*/
-    .social-media h2 a {
-        color: black;
-        text-decoration: none;
-    }
-
-    /*english button*/
-    .english a {
-        text-decoration: none;
-        background: #EBEAEA;
-        color: var(--blue);
-        padding: 7px 17px;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 10px;
-    }
-
-    /*english hover*/
-    .english a:hover {
-        color: var(--blue);
-        border: 2px solid var(--blue);
-    }
-
-    /*nepali button*/
-    .nepali a {
-        text-decoration: none;
-        background: red;
-        color: white;
-        padding: 7px 17px;
-        font-weight: bold;
-        border-radius: 5px;
-        font-size: 10px;
-    }
-
-    /*nepali hover*/
-    .nepali a:hover {
-        color: red;
-        background: white;
-        border: 2px solid red;
-    }
-
-    /*topheader date*/
-    .date p {
-        font-size: 12px;
-        font-weight: bold;
-        padding-top: 0;
-    }
-
-    /*top header section content*/
-    .header-top {
-        padding-top: 5px;
-    }
-
-    /*top header link*/
-    .header-top a {
-        font-size: 12px;
-    }
-
-    /*top header h2*/
-    .header-top h2 a {
-        font-size: 35px;
-        padding-left: 10px;
-    }
-
-    /*top header padding*/
-    header .top-header {
-        padding: 10px 20px 10px;
-        height: 120px;
-    }
 
     /*footer*/
     footer {
@@ -563,103 +406,6 @@ footer .container {
 
 /*media query for tablet and larger smart phone*/
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-
-    /* Thick red border */
-    hr.linee {
-        border: 1px solid var(--blue);
-        margin-top: 5px;
-    }
-
-    /*header image*/
-    .top-header .logo img {
-        height: 4rem;
-        width: 30rem;
-    }
-
-    /*english button */
-    .top-header .english {
-        margin-top: 1rem;
-    }
-
-    /*nepali button*/
-    .top-header .nepali {
-        margin-top: 1rem;
-    }
-
-    /*date*/
-    .date p {
-        font-size: 10px;
-        font-weight: bold;
-        padding-top: 1rem;
-    }
-
-    /*social media icon*/
-    .social-media h2 a {
-        color: black;
-        text-decoration: none;
-    }
-
-    /*english button*/
-    .english a {
-        text-decoration: none;
-        background: #EBEAEA;
-        color: var(--blue);
-        padding: 7px 20px;
-        border-radius: 5px;
-        font-weight: bold;
-    }
-
-    /*english hover*/
-    .english a:hover {
-        color: var(--blue);
-        border: 2px solid var(--blue);
-    }
-
-    /*nepali button*/
-    .nepali a {
-        text-decoration: none;
-        background: red;
-        color: white;
-        padding: 7px 20px;
-        font-weight: bold;
-        border-radius: 5px;
-    }
-
-    /*nepali hover*/
-    .nepali a:hover {
-        color: red;
-        background: white;
-        border: 2px solid red;
-    }
-
-    /*topheader date*/
-    .date p {
-        font-size: 14px;
-        font-weight: bold;
-        padding-top: 0;
-    }
-
-    /*top header section content*/
-    .header-top {
-        padding-top: 5px;
-    }
-
-    /*top header link*/
-    .header-top a {
-        font-size: 12px;
-    }
-
-    /*top header h2*/
-    .header-top h2 a {
-        font-size: 30px;
-        padding-left: 20px;
-    }
-
-    /*top header padding*/
-    header .top-header {
-        padding: 10px 2rem 10px;
-        height: 9rem;
-    }
 
     /*footer*/
     footer {
@@ -739,13 +485,13 @@ footer .container {
 
     /*heading top part*/
     .header-top {
-        padding-top: 2rem;
+        padding-top: 3rem;
     }
 
     /*top header padding*/
     header .top-header {
         padding: 5px 5px 5px 2rem;
-        height: 5rem;
+        height: 7rem;
     }
 
     /*nepali button*/
@@ -753,20 +499,18 @@ footer .container {
         padding: 5px 12px;
         font-weight: bold;
         border-radius: 5px;
-        font-size: 10px;
     }
 
     /*english button*/
     .english a {
         padding: 5px 12px;
         border-radius: 5px;
-        font-size: 10px;
     }
 
     /*top header image*/
     .top-header .logo img {
-        height: 4rem;
-        width: 16rem;
+        height: 8rem;
+        width: 40rem;
     }
 
     /*navbar*/
@@ -785,14 +529,8 @@ footer .container {
 
     /*header nav icon*/
     .header-top h2 a {
-        font-size: 20px;
-        padding-left: 5px;
-    }
-
-    .date p {
-        font-size: 10px;
-        font-weight: bold;
-        padding-top: 5px;
+        font-size: 15px;
+        padding-left: 10px;
     }
 
     .header-top h2 {
@@ -866,91 +604,82 @@ footer .container {
 }
 
 /*laptop media query*/
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 
-    /*header navbar*/
-    header .navbar {
-        padding: 10px 4rem;
+    /*header part*/
+    header .top-header {
+        padding: 5px 4rem 10px;
+        height: 7rem;
     }
 
-    /*top header padding*/
-    header .top-header {
-        padding: 5px 5px 10px 1rem;
-        height: 8rem;
+    /*nav link*/
+    nav .navbar-nav {
+        color: white;
+        text-decoration: none;
+        margin-left: 3rem;
     }
 
     /*navbar link*/
     nav .navbar-nav li a {
         color: white;
         text-decoration: none;
-        margin-right: 3rem;
+        margin-right: 40px;
     }
 
-    /*social media icon*/
+    /*header icon*/
     .header-top h2 a {
-        font-size: 25px;
-        padding-left: 5px;
+        font-size: 20px;
+        padding-left: 3px;
     }
 
-    /*english button*/
-    .english a {
-        text-decoration: none;
-        background: #EBEAEA;
-        color: var(--blue);
-        padding: 7px 17px;
-        border-radius: 5px;
-        font-weight: bold;
+    /*header social median*/
+    .social-media {
+        margin-left: 10px;
+        float: inline-end;
     }
 
-    /*nepali button*/
-    .nepali a {
-        text-decoration: none;
-        background: red;
-        color: white;
-        padding: 7px 17px;
-        font-weight: bold;
-        border-radius: 5px;
+    /*header*/
+    .header-top {
+        margin-right: 1rem;
     }
 
-    /*top header image*/
-    .top-header .logo img {
-        height: 4rem;
-        width: 16rem;
-        margin-top: 2rem;
+    /*header date*/
+    .date p {
+        font-size: 10px;
     }
 
     /*footer*/
     footer {
-        padding: 1rem 4rem;
+        padding: 1rem 3rem 2rem 5rem;
         width: 100%;
     }
 
     /*footer image*/
     .bagmati-footer-logo a img {
-        height: 150px;
-        margin-top: 35px;
-        margin-bottom: 20px;
+        height: 90px;
+        margin-bottom: 15px;
     }
 
     /*footer about company*/
     footer h3 {
+        font-size: 12px;
         line-height: 1.6;
     }
 
     /*footer headings*/
     footer .container h6 {
         padding-bottom: 0px;
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    footer h6 {
+        margin-top: 20px;
     }
 
     /*footer content*/
     footer p {
-        font-size: 14px;
-
-    }
-
-    p {
-        margin-bottom: 10px;
+        font-size: 12px;
+        margin-bottom: 5px;
     }
 
     /*footer link*/
@@ -972,16 +701,16 @@ footer .container {
     .copyright {
         height: 1rem;
     }
+
+    /**footer copyright**/
+    .heading h1 {
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-
-    /*top header image*/
-    .top-header .logo img {
-        height: 4rem;
-        width: 16rem;
-        margin-top: 2rem;
-    }
 
     /*header navbar*/
     header .navbar {
@@ -1057,13 +786,6 @@ footer .container {
 }
 
 @media only screen and (min-width: 1400px) {
-
-    /*top header image*/
-    .top-header .logo img {
-        height: 4rem;
-        width: 16rem;
-        margin-top: 2rem;
-    }
 
     /*header navbar*/
     header .navbar {

@@ -33,12 +33,14 @@
     background-color: #D9D9D9;
     border-radius: 1px;
     border-color: #D9D9D9;
+    height: 22rem;
+    overflow: hidden;
 }
 
 /*Sahitya main news title*/
 .sahitya_main_news_detail h3 {
     font-weight: bold;
-    font-size: 28;
+    font-size: 28px;
     padding: 4rem 3rem 1rem 1rem;
 }
 
@@ -69,6 +71,13 @@
     object-fit: cover;
 }
 
+.sahitya_news .card {
+    border: none;
+    overflow: hidden;
+    height: 12rem;
+    border-radius: 0;
+}
+
 .sahitya_news h2 {
     font-weight: bold;
     font-size: 16px;
@@ -87,4 +96,301 @@
 
 .sahitya_news {
     padding: 1rem 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*sahitya body section*/
+    .sahitya_body_section {
+        padding: 1rem 0;
+    }
+
+    .sahitya_body {
+        margin: 0 1rem 0 1rem;
+        padding: 1rem;
+    }
+
+    /*sahitya main news*/
+    .sahitya_main_news {
+        margin-bottom: 1rem;
+    }
+
+    .sahitya_main_news .card {
+        height: 13rem;
+    }
+
+    /*Sahitya main news title*/
+    .sahitya_main_news_detail h3 {
+        font-size: 16px;
+        padding: 1rem 5px 6px 0;
+    }
+
+    /*sahitya main news date*/
+    .sahitya_main_news_detail p {
+        font-size: 12px;
+        padding: 0 5px 10px 0;
+    }
+
+    /*sahitya main news image*/
+    .sahitya_main_news img {
+        height: 13rem;
+    }
+
+    /*sahitya news detail*/
+    .sahitya_news_detail {
+        padding: 2px 0;
+    }
+
+    /*sahitya news image*/
+    .sahitya_news img {
+        height: 5rem;
+    }
+
+    .sahitya_news .card {
+        height: 100%;
+    }
+
+    .sahitya_news h2 {
+        padding-top: 3px;
+        font-size: 10px;
+    }
+
+    .sahitya_news p {
+        font-size: 9px;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+        margin-top: 2px;
+    }
+
+    .sahitya_news h4 {
+        padding-top: 0px;
+        font-size: 8px;
+    }
+
+    .sahitya_news {
+        padding: 2px 0;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+
+    /*sahitya body section*/
+    .sahitya_body_section {
+        padding: 1rem;
+    }
+
+    .sahitya_body {
+        margin: 0 1rem 0 1rem;
+        padding: 1rem;
+    }
+
+    /*sahitya main news*/
+    .sahitya_main_news {
+        margin-bottom: 1rem;
+    }
+
+    .sahitya_main_news .card {
+        height: 16rem;
+    }
+
+    /*Sahitya main news title*/
+    .sahitya_main_news_detail h3 {
+        font-size: 20px;
+        padding: 2rem 1rem 10px 0;
+    }
+
+    /*sahitya main news date*/
+    .sahitya_main_news_detail p {
+        font-size: 14px;
+        padding: 0 1rem 10px 0;
+    }
+
+    /*sahitya main news image*/
+    .sahitya_main_news img {
+        height: 16rem;
+    }
+
+    /*sahitya news detail*/
+    .sahitya_news_detail {
+        padding: 2px 0;
+    }
+
+    /*sahitya news image*/
+    .sahitya_news img {
+        height: 7rem;
+    }
+
+    .sahitya_news .card {
+        height: 100%;
+    }
+
+    .sahitya_news h2 {
+        padding-top: 3px;
+        font-size: 11px;
+    }
+
+    .sahitya_news p {
+        font-size: 9px;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .sahitya_news h4 {
+        padding-top: 0px;
+        font-size: 9px;
+    }
+
+    .sahitya_news {
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /*sahitya body section*/
+    .sahitya_body_section {
+        padding: 1rem;
+    }
+
+    .sahitya_body {
+        margin: 0 1rem 0 1rem;
+        padding: 1rem;
+    }
+
+    /*sahitya main news*/
+    .sahitya_main_news {
+        margin-bottom: 1rem;
+    }
+
+    .sahitya_main_news .card {
+        height: 16rem;
+    }
+
+    /*Sahitya main news title*/
+    .sahitya_main_news_detail h3 {
+        font-size: 20px;
+        padding: 2rem 1rem 10px 0;
+    }
+
+    /*sahitya main news date*/
+    .sahitya_main_news_detail p {
+        font-size: 14px;
+        padding: 0 1rem 10px 0;
+    }
+
+    /*sahitya main news image*/
+    .sahitya_main_news img {
+        height: 16rem;
+    }
+
+    /*sahitya news detail*/
+    .sahitya_news_detail {
+        padding: 2px 0;
+    }
+
+    /*sahitya news image*/
+    .sahitya_news img {
+        height: 10rem;
+    }
+
+    .sahitya_news .card {
+        height: 10rem;
+    }
+
+    .sahitya_news h2 {
+        font-size: 12px;
+    }
+
+    .sahitya_news p {
+        font-size: 9px;
+        padding-bottom: 0px;
+    }
+
+    .sahitya_news h4 {
+        padding-top: 0px;
+        font-size: 9px;
+    }
+
+    .sahitya_news {
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*sahitya body section*/
+    .sahitya_body_section {
+        padding: 1rem 2rem;
+    }
+
+    .sahitya_body {
+        margin: 0 2rem 0 2rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    /*sahitya main news*/
+    .sahitya_main_news {
+        margin-bottom: 2rem;
+    }
+
+    .sahitya_main_news .card {
+        height: 16rem;
+    }
+
+    /*Sahitya main news title*/
+    .sahitya_main_news_detail h3 {
+        font-size: 24px;
+        padding: 2rem 2rem 10px 1rem;
+    }
+
+    /*sahitya main news date*/
+    .sahitya_main_news_detail p {
+        font-size: 14px;
+        padding: 0 3rem 1rem 1rem;
+    }
+
+    /*sahitya main news image*/
+    .sahitya_main_news img {
+        height: 16rem;
+    }
+
+    /*sahitya news detail*/
+    .sahitya_news_detail {
+        padding: 2px 0;
+    }
+
+    /*sahitya news image*/
+    .sahitya_news img {
+        height: 11rem;
+    }
+
+    .sahitya_news .card {
+        height: 12rem;
+    }
+
+    .sahitya_news h2 {
+        font-size: 14px;
+    }
+
+    .sahitya_news p {
+        font-size: 10px;
+    }
+
+    .sahitya_news h4 {
+        font-size: 11px;
+    }
+
+    .sahitya_news {
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /*sahitya body section*/
+    .sahitya_body_section {
+        background: #F5F5F5;
+        padding: 2rem 1rem;
+    }
 }

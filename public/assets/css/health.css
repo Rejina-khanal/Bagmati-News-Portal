@@ -171,10 +171,619 @@
 .prabash_card p {
     color: #898888;
     font-size: 14px;
+    margin-bottom: 2px;
 }
 
 /*bhansama ausadhi image*/
 .bhanshama_ausadhi img {
     height: 12rem;
     width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*health main news heading*/
+    .main_health_section h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .health_body_section {
+        background: #F5F5F5;
+        padding: 1rem 0;
+    }
+
+    /*Main health news section*/
+    .main_health_section {
+        padding: 1rem;
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    /*covid news section*/
+    .covid_body {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    /*tips news*/
+    .tips_body {
+        padding: 1rem 1rem 1rem 1px;
+        margin: 1rem;
+    }
+
+    /*tips detail*/
+    .tips_detail {
+        padding: 1rem 10px;
+    }
+
+    .antarbarta_body {
+        padding-right: 1rem;
+    }
+
+
+    /*main health news image*/
+    .main_health_section .health_body img {
+        width: 100%;
+        height: 16rem;
+        padding-bottom: 1rem;
+        padding-top: 7px;
+    }
+
+    /*health image*/
+    .health_news img {
+        height: 5rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*health title*/
+    .health_news h3 {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 5px 1px;
+    }
+
+    /*covid news image*/
+    .covid_body_image img {
+        height: 12rem;
+        width: 100%;
+        filter: brightness(50%);
+        object-fit: cover;
+    }
+
+    .covid_body_image_text h4 {
+        padding: 8px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    /*tips news image*/
+    .tips_card img {
+        height: 6rem;
+    }
+
+    /*tips news card*/
+    .tips_card {
+        height: 7rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid grey;
+    }
+
+    /*tips title*/
+    .tips_card h3 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /*tips date*/
+    .tips_card p {
+        color: #898888;
+        font-size: 10px;
+    }
+
+    /*antarbarta news image*/
+    .antarbarta_card img {
+        object-fit: cover;
+        width: 100%;
+        height: 4rem;
+    }
+
+    /*antarbarta news card*/
+    .antarbarta_card {
+        height: 7rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid grey;
+    }
+
+    /*antarbarta news title*/
+    .antarbarta_card h3 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /*antarbarta news detail*/
+    .antarbarta_detail {
+        padding: 5px;
+    }
+
+    /*prabash news detail*/
+    .prabash_detail {
+        padding: 5px 5px 5px 5px;
+    }
+
+    /*prabash news title*/
+    .prabash_card h3 {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .prabash_card p {
+        color: #898888;
+        font-size: 12px;
+    }
+
+    .bhanshama_ausadhi img {
+        height: 7rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+
+    /*health main news heading*/
+    .main_health_section h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .health_body_section {
+        background: #F5F5F5;
+        padding: 1rem 0;
+    }
+
+    /*Main health news section*/
+    .main_health_section {
+        padding: 1rem;
+        margin: 0 2rem 1rem 2rem;
+    }
+
+    /*covid news section*/
+    .covid_body {
+        padding: 1rem;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    /*tips news*/
+    .tips_body {
+        padding: 1rem 1rem 1rem 1px;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    /*tips detail*/
+    .tips_detail {
+        padding: 1rem 10px;
+    }
+
+    .antarbarta_body {
+        padding-right: 1rem;
+    }
+
+
+    /*main health news image*/
+    .main_health_section .health_body img {
+        width: 100%;
+        height: 18rem;
+        padding-bottom: 1rem;
+        padding-top: 7px;
+    }
+
+    /*health image*/
+    .health_news img {
+        height: 7rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*health title*/
+    .health_news h3 {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 5px 1px;
+    }
+
+    /*covid news image*/
+    .covid_body_image img {
+        height: 14rem;
+        width: 100%;
+        filter: brightness(50%);
+        object-fit: cover;
+    }
+
+    .covid_body_image_text h4 {
+        padding: 8px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    /*tips news image*/
+    .tips_card img {
+        height: 6rem;
+    }
+
+    /*tips news card*/
+    .tips_card {
+        height: 7rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid grey;
+    }
+
+    /*tips title*/
+    .tips_card h3 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    /*tips date*/
+    .tips_card p {
+        color: #898888;
+        font-size: 12px;
+    }
+
+    /*antarbarta news image*/
+    .antarbarta_card img {
+        object-fit: cover;
+        width: 100%;
+        height: 4rem;
+    }
+
+    /*antarbarta news card*/
+    .antarbarta_card {
+        height: 7rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid grey;
+    }
+
+    /*antarbarta news title*/
+    .antarbarta_card h3 {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    /*antarbarta news detail*/
+    .antarbarta_detail {
+        padding: 5px;
+    }
+
+    /*prabash news title*/
+    .prabash_card h3 {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .bhanshama_ausadhi img {
+        height: 8rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /*health main news heading*/
+    .main_health_section h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .health_body_section {
+        background: #F5F5F5;
+        padding: 1rem 0;
+    }
+
+    /*Main health news section*/
+    .main_health_section {
+        padding: 1rem;
+        margin: 0 2rem 1rem 2rem;
+    }
+
+    /*covid news section*/
+    .covid_body {
+        padding: 1rem;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    /*tips news*/
+    .tips_body {
+        padding: 1rem 1rem 1rem 1px;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    /*tips detail*/
+    .tips_detail {
+        padding: 1rem 10px;
+    }
+
+    .antarbarta_body {
+        padding-right: 1rem;
+    }
+
+    /*main health news image*/
+    .main_health_section .health_body img {
+        width: 100%;
+        height: 22rem;
+        padding-bottom: 1rem;
+        padding-top: 7px;
+    }
+
+    /*health image*/
+    .health_news img {
+        height: 8rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*health title*/
+    .health_news h3 {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 5px 1px;
+    }
+
+    /*covid news image*/
+    .covid_body_image img {
+        height: 16rem;
+        width: 100%;
+        filter: brightness(50%);
+        object-fit: cover;
+    }
+
+    .covid_body_image_text h4 {
+        padding: 8px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /*tips news image*/
+    .tips_card img {
+        height: 6rem;
+    }
+
+    /*tips news card*/
+    .tips_card {
+        height: 7rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid grey;
+    }
+
+    /*tips title*/
+    .tips_card h3 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    /*tips date*/
+    .tips_card p {
+        color: #898888;
+        font-size: 12px;
+    }
+
+    /*antarbarta news image*/
+    .antarbarta_card img {
+        object-fit: cover;
+        width: 100%;
+        height: 4rem;
+    }
+
+    /*antarbarta news card*/
+    .antarbarta_card {
+        height: 5rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid grey;
+    }
+
+    /*antarbarta news title*/
+    .antarbarta_card h3 {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    /*antarbarta news detail*/
+    .antarbarta_detail {
+        padding: 5px;
+    }
+
+    /*prabash news title*/
+    .prabash_card h3 {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .bhanshama_ausadhi img {
+        height: 8rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*Main health news section*/
+    .main_health_section {
+        padding: 1rem;
+    }
+
+    /*covid news section*/
+    .covid_body {
+        padding: 1rem;
+    }
+
+    /*tips news*/
+    .tips_body {
+        padding: 1rem 1rem 1rem 4px;
+    }
+
+    .antarbarta_body {
+        padding-right: 1rem;
+    }
+
+    /*main health news image*/
+    .main_health_section .health_body img {
+        width: 100%;
+        height: 25rem;
+        padding-bottom: 1rem;
+    }
+
+    /*health image*/
+    .health_news img {
+        height: 9rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*health title*/
+    .health_news h3 {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 5px 1px;
+    }
+
+    /*covid news image*/
+    .covid_body_image img {
+        height: 17rem;
+        width: 100%;
+        filter: brightness(50%);
+        object-fit: cover;
+    }
+
+    .covid_body_image_text h4 {
+        padding: 8px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    /*tips news image*/
+    .tips_card img {
+        height: 7rem;
+    }
+
+    /*tips news card*/
+    .tips_card {
+        height: 8rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid grey;
+    }
+
+    /*tips title*/
+    .tips_card h3 {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    /*tips date*/
+    .tips_card p {
+        color: #898888;
+        font-size: 13px;
+    }
+
+    /*antarbarta news image*/
+    .antarbarta_card img {
+        object-fit: cover;
+        width: 100%;
+        height: 5rem;
+    }
+
+    /*antarbarta news card*/
+    .antarbarta_card {
+        height: 6rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid grey;
+    }
+
+    /*antarbarta news title*/
+    .antarbarta_card h3 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /*prabash news title*/
+    .prabash_card h3 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .bhanshama_ausadhi img {
+        height: 9rem;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /*main health news image*/
+    .main_health_section .health_body img {
+        width: 100%;
+        height: 27rem;
+    }
+
+    /*health image*/
+    .health_news img {
+        height: 12rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /*health title*/
+    .health_news h3 {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 8px 1px;
+    }
+
+    /*covid news image*/
+    .covid_body_image img {
+        height: 24rem;
+        width: 100%;
+        filter: brightness(50%);
+        object-fit: cover;
+    }
+
+    .covid_body_image_text h4 {
+        padding: 8px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    /*tips title*/
+    .tips_card h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /*tips date*/
+    .tips_card p {
+        color: #898888;
+        font-size: 13px;
+    }
+
+    /*antarbarta news title*/
+    .antarbarta_card h3 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /*prabash news title*/
+    .prabash_card h3 {
+        font-size: 16px;
+        font-weight: bold;
+    }
 }

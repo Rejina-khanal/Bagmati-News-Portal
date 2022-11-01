@@ -38,126 +38,159 @@
 
                 <!--Sahitya other news section start-->
                 <div class="row">
-                    <div class="col-6 sahitya_news">
-                        <div class="row">
-                            <div class="col-6">
-                                <!--Sahitya other news image-->
-                                <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid" alt="">
-                            </div>
-                            <!--Sahitya other news detail-->
-                            <div class="col-6 sahitya_news_detail">
-                                <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
-                                <p>३ भाद्र २०७९, शुक्रबार
-                                </p>
-                                <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
-                                    जन्मजयन्तीको
-                                    अवसर पारेर उनको जीवनी प्रवचन
-                                    तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
-                                </h4>
+                    <div class="col-4 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <a href="">
+                                        <!--Sahitya other news image-->
+                                        <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <!--Sahitya other news detail-->
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news_detail">
+                                    <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
+                                    <p>३ भाद्र २०७९, शुक्रबार
+                                    </p>
+                                    <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
+                                        जन्मजयन्तीको
+                                        अवसर पारेर उनको जीवनी प्रवचन
+                                        तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
+                                    </h4>
+                                </div>
+
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-6 sahitya_news">
-                        <div class="row">
-                            <div class="col-6">
-                                <!--Sahitya other news image-->
-                                <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid" alt="">
+                    <div class="col-4 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <a href="">
+                                        <!--Sahitya other news image-->
+                                        <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <!--Sahitya other news detail-->
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news_detail">
+                                    <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
+                                    <p>३ भाद्र २०७९, शुक्रबार
+                                    </p>
+                                    <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
+                                        जन्मजयन्तीको
+                                        अवसर पारेर उनको जीवनी प्रवचन
+                                        तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
+                                    </h4>
+                                </div>
+
                             </div>
-                            <!--Sahitya other news detail-->
-                            <div class="col-6 sahitya_news_detail">
-                                <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
-                                <p>३ भाद्र २०७९, शुक्रबार
-                                </p>
-                                <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
-                                    जन्मजयन्तीको
-                                    अवसर पारेर उनको जीवनी प्रवचन
-                                    तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
-                                </h4>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <a href="">
+                                        <!--Sahitya other news image-->
+                                        <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <!--Sahitya other news detail-->
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news_detail">
+                                    <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
+                                    <p>३ भाद्र २०७९, शुक्रबार
+                                    </p>
+                                    <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
+                                        जन्मजयन्तीको
+                                        अवसर पारेर उनको जीवनी प्रवचन
+                                        तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
+                                    </h4>
+                                </div>
+
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-6 sahitya_news">
-                        <div class="row">
-                            <div class="col-6">
-                                <!--Sahitya other news image-->
-                                <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid" alt="">
+                    <div class="col-4 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <a href="">
+                                        <!--Sahitya other news image-->
+                                        <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <!--Sahitya other news detail-->
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news_detail">
+                                    <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
+                                    <p>३ भाद्र २०७९, शुक्रबार
+                                    </p>
+                                    <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
+                                        जन्मजयन्तीको
+                                        अवसर पारेर उनको जीवनी प्रवचन
+                                        तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
+                                    </h4>
+                                </div>
+
                             </div>
-                            <!--Sahitya other news detail-->
-                            <div class="col-6 sahitya_news_detail">
-                                <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
-                                <p>३ भाद्र २०७९, शुक्रबार
-                                </p>
-                                <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
-                                    जन्मजयन्तीको
-                                    अवसर पारेर उनको जीवनी प्रवचन
-                                    तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
-                                </h4>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <a href="">
+                                        <!--Sahitya other news image-->
+                                        <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <!--Sahitya other news detail-->
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news_detail">
+                                    <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
+                                    <p>३ भाद्र २०७९, शुक्रबार
+                                    </p>
+                                    <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
+                                        जन्मजयन्तीको
+                                        अवसर पारेर उनको जीवनी प्रवचन
+                                        तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
+                                    </h4>
+                                </div>
+
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-6 sahitya_news">
-                        <div class="row">
-                            <div class="col-6">
-                                <!--Sahitya other news image-->
-                                <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid" alt="">
-                            </div>
-                            <!--Sahitya other news detail-->
-                            <div class="col-6 sahitya_news_detail">
-                                <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
-                                <p>३ भाद्र २०७९, शुक्रबार
-                                </p>
-                                <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
-                                    जन्मजयन्तीको
-                                    अवसर पारेर उनको जीवनी प्रवचन
-                                    तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
-                                </h4>
+                    <div class="col-4 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <a href="">
+                                        <!--Sahitya other news image-->
+                                        <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <!--Sahitya other news detail-->
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 sahitya_news_detail">
+                                    <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
+                                    <p>३ भाद्र २०७९, शुक्रबार
+                                    </p>
+                                    <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
+                                        जन्मजयन्तीको
+                                        अवसर पारेर उनको जीवनी प्रवचन
+                                        तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
+                                    </h4>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-6 sahitya_news">
-                        <div class="row">
-                            <div class="col-6">
-                                <!--Sahitya other news image-->
-                                <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid" alt="">
-                            </div>
-                            <!--Sahitya other news detail-->
-                            <div class="col-6 sahitya_news_detail">
-                                <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
-                                <p>३ भाद्र २०७९, शुक्रबार
-                                </p>
-                                <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
-                                    जन्मजयन्तीको
-                                    अवसर पारेर उनको जीवनी प्रवचन
-                                    तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-6 sahitya_news">
-                        <div class="row">
-                            <div class="col-6">
-                                <!--Sahitya other news image-->
-                                <img src="{{ asset('assets/images/bhanubhakta.png') }}" class="img-fluid" alt="">
-                            </div>
-                            <!--Sahitya other news detail-->
-                            <div class="col-6 sahitya_news_detail">
-                                <h2>‘भानुभक्तको जीवनी’ प्रवचन गरि २०९औँ भानुजयन्ती मनाइने</h2>
-                                <p>३ भाद्र २०७९, शुक्रबार
-                                </p>
-                                <h4>काठमाडौं । आदिकवि भानुभक्त आचार्यको २०९औँ जन्मजयन्ती मनाइने भएको छ । आदिकविको
-                                    जन्मजयन्तीको
-                                    अवसर पारेर उनको जीवनी प्रवचन
-                                    तथा रचना वाचन गरिने नेपाल प्रज्ञा प्रतिष्ठानले जनाएको छ । भोलि (सोमबार)
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-
 
                 </div>
                 <!--Sahitya other news section end-->

@@ -18,12 +18,12 @@
                 <div class="business_main_news">
                     <div class="card">
                         <div class="row">
-                            <div class="col-8">
+                            <div class="col-7 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
                                 <a href="">
                                     <img src="{{ asset('assets/images/businesss.jpg') }}" alt="Avatar">
                                 </a>
                             </div>
-                            <div class="col-4 ">
+                            <div class="col-5 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                                 <div class="business_main_news_detail">
                                     <h3>
                                         नयाँ युगमा प्रवेश गर्दैछ पोखरा
@@ -41,7 +41,7 @@
             <!--news, advertisement and market section start-->
             <section class="bank_body">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-8 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
                         <div class="bank_section">
                             <!--Bibid Main news heading-->
                             <div class="business_news_heading">
@@ -60,7 +60,6 @@
                                             <a href="">
                                                 <!--Main Bibid news image-->
                                                 <img src="{{ asset('assets/images/swastha.jpg') }}" alt="Avatar">
-
                                             </a>
                                         </div>
                                         <!--Main Bibid news detail-->
@@ -84,7 +83,7 @@
                     </div>
 
                     <!--Market section news start-->
-                    <div class="col-3">
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                         <div class="advertisement">
                             <img src="{{ asset('assets/images/offer2.jpg') }}" alt="Avatar">
                         </div>
@@ -96,7 +95,6 @@
                             <a href="">
                                 <!--Market news image-->
                                 <img src="{{ asset('assets/images/businesss.jpg') }}" alt="Avatar">
-
                             </a>
 
                             <!--Market news detail-->
@@ -133,7 +131,7 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" alt="Avatar">
@@ -145,7 +143,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" alt="Avatar">
@@ -157,7 +155,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 gx-5">
+                    <div class="col-4 gx-4">
                         <div class="paryatan_body_image">
                             <a href="">
                                 <img src="{{ asset('assets/images/swastha.jpg') }}" alt="Avatar">
@@ -179,41 +177,42 @@
                     <div class="line blue_line one"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
-                        <a href="#">
-                            <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
-                            <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
-                    </div>
-
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
+                        <a href="#">
+                            <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
+                        </a>
+                        <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
+                    </div>
+
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
@@ -253,41 +252,41 @@
 
                 <!--Pradesh other news section start-->
                 <div class="row">
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar"> </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>
                         <h3>रामेछापमा बाढीले पाँच घर बगायो</h3>
                     </div>
 
-                    <div class="col-4 rojgar_news gx-5">
+                    <div class="col-4 rojgar_news gx-4">
                         <a href="#">
                             <img src="{{ asset('assets/images/samacharImage.png') }}" alt="Avatar">
                         </a>

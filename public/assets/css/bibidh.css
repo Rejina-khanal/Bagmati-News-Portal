@@ -122,7 +122,6 @@ hr.business_line {
     height: 18rem;
     overflow: hidden;
     margin-bottom: 2rem;
-    text-align: justify;
 }
 
 .bank_main_new .container {
@@ -144,6 +143,7 @@ hr.business_line {
 /*bank main news detail*/
 .bank_main_new h2 {
     font-size: 16px;
+    text-align: justify;
 }
 
 /*bank main news image*/
@@ -264,4 +264,624 @@ hr.business_line {
     font-size: 18px;
     font-weight: bold;
     padding: 1rem 1px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*business body section start*/
+    .business_body_section {
+        background: #F5F5F5;
+        padding: 1rem 5px;
+    }
+
+    .business_body {
+        background-color: white;
+        margin: 0 1rem 1rem 1rem;
+        padding: 1rem;
+    }
+
+    /*bank news body*/
+    .bank_body {
+        margin: 0 1rem 0 1rem;
+    }
+
+    .bank_section {
+        background-color: white;
+        padding: 1rem;
+    }
+
+    .market_section {
+        background-color: white;
+        padding: 1rem 8px;
+    }
+
+    /*paryatan news section*/
+    .paryatan_body {
+        padding: 1rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    /*rojgar body*/
+    .rojgar_body {
+        padding: 1rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .business_news_heading h3 {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    /*business main news*/
+    .business_main_news img {
+        height: 16rem;
+    }
+
+    /*business main news detail*/
+    .business_main_news_detail {
+        padding: 2rem 5px;
+    }
+
+    /*business main news title*/
+    .business_main_news_detail h3 {
+        font-size: 20px;
+    }
+
+    /*business main news date*/
+    .business_main_news_detail p {
+        font-size: 13px;
+    }
+
+    .bank_main_new .container {
+        padding: 8px 8px 1rem 0;
+    }
+
+    /*bank main news image*/
+    .bank_main_new img {
+        height: 15rem;
+    }
+
+    /*bank main news title*/
+    .bank_main_new h3 {
+        font-size: 13px;
+    }
+
+    /*bank main news date*/
+    .bank_main_new p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    /*bank main news detail*/
+    .bank_main_new h2 {
+        font-size: 11px;
+    }
+
+    .bank_main_new .card {
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+
+    /*matket news section image*/
+    .market_section img {
+        height: 6rem;
+        padding-bottom: 3px;
+    }
+
+    .market_news {
+        padding: 10px 0 0 0;
+    }
+
+    /*market news title*/
+    .market_news h3 {
+        font-size: 12px;
+    }
+
+    /*market news date*/
+    .market_news p {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+
+    /*paryatan image*/
+    .paryatan_body_image img {
+        height: 12rem;
+    }
+
+    .paryatan_body_image_text h4 {
+        padding: 5px;
+        font-size: 10px;
+        font-weight: light;
+    }
+
+    /*rojgar image*/
+    .rojgar_news img {
+        height: 5rem;
+    }
+
+    /*rojgar title*/
+    .rojgar_news h3 {
+        font-size: 12px;
+        padding: 5px 1px;
+    }
+
+    .businesss_main_news img {
+        height: 13rem;
+    }
+
+    /*business main news detail*/
+    .businesss_main_news_detail {
+        padding: 2rem 10px;
+    }
+
+    /*business main news title*/
+    .businesss_main_news_detail h3 {
+        font-size: 20px;
+    }
+
+    .businesss_main_news_detail p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+
+    /*business body section start*/
+    .business_body_section {
+        background: #F5F5F5;
+        padding: 1rem;
+    }
+
+    .business_body {
+        background-color: white;
+        margin: 0 1rem 1rem 1rem;
+        padding: 1rem;
+    }
+
+    /*bank news body*/
+    .bank_body {
+        margin: 0 1rem 0 1rem;
+    }
+
+    .bank_section {
+        background-color: white;
+        padding: 1rem;
+    }
+
+    .market_section {
+        background-color: white;
+        padding: 1rem 8px;
+    }
+
+    /*paryatan news section*/
+    .paryatan_body {
+        padding: 1rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    /*rojgar body*/
+    .rojgar_body {
+        padding: 1rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .business_news_heading h3 {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    /*business main news*/
+    .business_main_news img {
+        height: 16rem;
+    }
+
+    /*business main news detail*/
+    .business_main_news_detail {
+        padding: 2rem 10px;
+    }
+
+    /*business main news title*/
+    .business_main_news_detail h3 {
+        font-size: 22px;
+    }
+
+    /*business main news date*/
+    .business_main_news_detail p {
+        font-size: 14px;
+    }
+
+    .bank_main_new .container {
+        padding: 1rem 1rem 1rem 0;
+    }
+
+    /*bank main news image*/
+    .bank_main_new img {
+        height: 15rem;
+    }
+
+    /*bank main news title*/
+    .bank_main_new h3 {
+        font-size: 15px;
+    }
+
+    /*bank main news date*/
+    .bank_main_new p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    /*bank main news detail*/
+    .bank_main_new h2 {
+        font-size: 11px;
+    }
+
+    .bank_main_new .card {
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+
+    /*matket news section image*/
+    .market_section img {
+        height: 7rem;
+        padding-bottom: 4px;
+    }
+
+    .market_news {
+        padding: 10px 0 0 0;
+    }
+
+    /*market news title*/
+    .market_news h3 {
+        font-size: 14px;
+    }
+
+    /*market news date*/
+    .market_news p {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    /*paryatan image*/
+    .paryatan_body_image img {
+        height: 14rem;
+    }
+
+    .paryatan_body_image_text h4 {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    /*rojgar image*/
+    .rojgar_news img {
+        height: 7rem;
+    }
+
+    /*rojgar title*/
+    .rojgar_news h3 {
+        font-size: 13px;
+        padding: 5px 1px;
+    }
+
+    .businesss_main_news img {
+        height: 14rem;
+    }
+
+    /*business main news detail*/
+    .businesss_main_news_detail {
+        padding: 2rem 10px;
+    }
+
+    /*business main news title*/
+    .businesss_main_news_detail h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .businesss_main_news_detail p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /*business body section start*/
+    .business_body_section {
+        background: #F5F5F5;
+        padding: 1rem;
+    }
+
+    .business_body {
+        background-color: white;
+        margin: 0 1rem 1rem 1rem;
+        padding: 1rem;
+    }
+
+    /*bank news body*/
+    .bank_body {
+        margin: 0 1rem 0 1rem;
+    }
+
+    .bank_section {
+        background-color: white;
+        padding: 1rem;
+    }
+
+    .market_section {
+        background-color: white;
+        padding: 1rem 8px;
+    }
+
+    /*paryatan news section*/
+    .paryatan_body {
+        padding: 1rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    /*rojgar body*/
+    .rojgar_body {
+        padding: 1rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .business_news_heading h3 {
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+
+    /*business main news*/
+    .business_main_news img {
+        height: 16rem;
+    }
+
+    /*business main news detail*/
+    .business_main_news_detail {
+        padding: 2rem 10px;
+    }
+
+    /*business main news title*/
+    .business_main_news_detail h3 {
+        font-size: 25px;
+    }
+
+    /*business main news date*/
+    .business_main_news_detail p {
+        font-size: 14px;
+    }
+
+    .bank_main_new .container {
+        padding: 1rem 1rem 1rem 0;
+    }
+
+    /*bank main news image*/
+    .bank_main_new img {
+        height: 15rem;
+    }
+
+    /*bank main news title*/
+    .bank_main_new h3 {
+        font-size: 17px;
+    }
+
+    /*bank main news date*/
+    .bank_main_new p {
+        font-size: 13px;
+    }
+
+    /*bank main news detail*/
+    .bank_main_new h2 {
+        font-size: 13px;
+    }
+
+    .bank_main_new .card {
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+
+    /*matket news section image*/
+    .market_section img {
+        height: 7rem;
+        padding-bottom: 4px;
+    }
+
+    .market_news {
+        padding: 10px 0 0 0;
+    }
+
+    /*market news title*/
+    .market_news h3 {
+        font-size: 14px;
+    }
+
+    /*market news date*/
+    .market_news p {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    /*paryatan image*/
+    .paryatan_body_image img {
+        height: 16rem;
+    }
+
+    .paryatan_body_image_text h4 {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    /*rojgar image*/
+    .rojgar_news img {
+        height: 8rem;
+    }
+
+    /*rojgar title*/
+    .rojgar_news h3 {
+        font-size: 14px;
+        padding: 5px 1px;
+    }
+
+    .businesss_main_news img {
+        height: 14rem;
+    }
+
+    /*business main news detail*/
+    .businesss_main_news_detail {
+        padding: 2rem 10px;
+    }
+
+    /*business main news title*/
+    .businesss_main_news_detail h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .businesss_main_news_detail p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*business body section start*/
+    .business_body_section {
+        background: #F5F5F5;
+        padding: 2rem;
+    }
+
+    .business_body {
+        background-color: white;
+        margin: 0 2rem 1rem 2rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    /*bank news body*/
+    .bank_body {
+        margin: 0 2rem 0 2rem;
+    }
+
+    .market_section {
+        background-color: white;
+        padding: 1rem 8px;
+    }
+
+    /*paryatan news section*/
+    .paryatan_body {
+        padding: 1rem 2rem;
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    /*rojgar body*/
+    .rojgar_body {
+        padding: 1rem 2rem;
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    .business_news_heading h3 {
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+
+    /*business main news*/
+    .business_main_news img {
+        height: 18rem;
+    }
+
+    /*business main news detail*/
+    .business_main_news_detail {
+        padding: 3rem 10px;
+    }
+
+    /*business main news title*/
+    .business_main_news_detail h3 {
+        font-size: 28px;
+    }
+
+    /*business main news date*/
+    .business_main_news_detail p {
+        font-size: 16px;
+    }
+
+    /*bank main news image*/
+    .bank_main_new img {
+        height: 18rem;
+    }
+
+    /*bank main news title*/
+    .bank_main_new h3 {
+        font-size: 22px;
+    }
+
+    /*bank main news date*/
+    .bank_main_new p {
+        font-size: 13px;
+    }
+
+    /*bank main news detail*/
+    .bank_main_new h2 {
+        font-size: 15px;
+    }
+
+    /*matket news section image*/
+    .market_section img {
+        height: 8rem;
+        padding-bottom: 4px;
+    }
+
+    .market_news {
+        padding: 10px 0 0 0;
+    }
+
+    /*market news title*/
+    .market_news h3 {
+        font-size: 15px;
+    }
+
+    /*market news date*/
+    .market_news p {
+        font-size: 12px;
+    }
+
+    /*paryatan image*/
+    .paryatan_body_image img {
+        height: 20rem;
+    }
+
+    .paryatan_body_image_text h4 {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    /*rojgar image*/
+    .rojgar_news img {
+        height: 11rem;
+    }
+
+    /*rojgar title*/
+    .rojgar_news h3 {
+        font-size: 16px;
+        padding: 5px 1px;
+    }
+
+    .businesss_main_news img {
+        height: 16rem;
+    }
+
+    /*business main news detail*/
+    .businesss_main_news_detail {
+        padding: 3rem 10px;
+    }
+
+    /*business main news title*/
+    .businesss_main_news_detail h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /*business body section start*/
+    .business_body_section {
+        background: #F5F5F5;
+        padding: 2rem 1rem;
+    }
 }
