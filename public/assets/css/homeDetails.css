@@ -186,9 +186,13 @@ hr.trending_line {
 }
 
 @media only screen and (max-width: 480px) {
+    .home_detail {
+        padding-top: 1rem;
+    }
+
     .home_main {
         background-color: white;
-        margin: 0 2rem 1rem 2rem;
+        margin: 0 1rem 1rem 1rem;
         padding: 1rem;
     }
 
@@ -196,7 +200,7 @@ hr.trending_line {
     .trending,
     .chutaunuBhayoKi {
         background-color: white;
-        margin: 0 2rem 1rem 2rem;
+        margin: 0 1rem 1rem 1rem;
         padding: 1rem;
     }
 
@@ -300,6 +304,10 @@ hr.trending_line {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 576px) {
+    .home_detail {
+        padding-top: 1rem;
+    }
+
     .home_main {
         background-color: white;
         margin: 0 2rem 1rem 2rem;

@@ -1,0 +1,322 @@
+.hamburger-menu {
+    background: #2D3691;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: left;
+}
+
+
+nav ul li {
+    display: inline-block;
+    line-height: 10px
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav ul li:last-child a {
+    padding-right: 0
+}
+
+nav ul li:hover>a {
+    color: #fff;
+    opacity: .7;
+    text-decoration: none
+}
+
+.menu-tigger {
+    padding-top: 3px;
+    padding-right: 10px;
+    display: none;
+    cursor: pointer
+}
+
+.menu-tigger span {
+    background: #2D3691;
+    height: 4px;
+    width: 27px;
+    display: block;
+    margin: 5px 0;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+@media only screen and (max-width: 480px) {
+    .hamburger-menu {
+        background: #F5F5F5;
+        color: red;
+        padding: 3px 1px;
+        height: 10px;
+        width: 45px;
+        float: inline-end;
+        margin-right: 1rem;
+    }
+
+    .menu-tigger {
+        margin-bottom: 1px;
+        display: block;
+        position: relative;
+        z-index: 3;
+        position: absolute;
+        top: 86px;
+        right: 16px;
+    }
+
+    nav {
+        text-align: center;
+        padding-top: 10px;
+        position: absolute;
+        -webkit-transform: translate(-100%);
+        transform: translate(-100%);
+        right: 0;
+        left: 0;
+        background: #2D3691;
+        height: 50%;
+        -webkit-transition: .3s;
+        transition: .3s;
+        opacity: 0;
+        z-index: 5;
+    }
+
+    nav.res-menu {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+        opacity: 1
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 40px
+    }
+
+    nav ul li a {
+        padding: 0
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 575px) {
+    .hamburger-menu {
+        background: #F5F5F5;
+        color: red;
+        padding: 5px 1px;
+        height: 0px;
+        width: 50px;
+        float: inline-end;
+        margin-right: 1rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .menu-tigger {
+        display: block;
+        position: relative;
+        z-index: 4;
+        position: absolute;
+        top: 74px;
+        right: 16px;
+    }
+
+    .menu-tigger span {
+        background: #2D3691;
+        height: 5px;
+        width: 35px;
+        display: block;
+        margin: 5px 0;
+        -webkit-transition: .5s;
+        transition: .5s
+    }
+
+    nav {
+        text-align: center;
+        padding-top: 10px;
+        position: absolute;
+        -webkit-transform: translate(-100%);
+        transform: translate(-100%);
+        right: 0;
+        left: 0;
+        background: #2D3691;
+        height: 100%;
+        -webkit-transition: .3s;
+        transition: .3s;
+        opacity: 0;
+        z-index: 5;
+    }
+
+    nav.res-menu {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+        opacity: 1
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 40px
+    }
+
+    nav ul li a {
+        padding: 0
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /*  .menu-tigger {
+        display: block;
+        position: relative;
+        z-index: 2
+    }
+
+    .hamburger-menu {
+        background: #2D3691;
+        color: red;
+        padding: 5px 1px;
+        height: 40px;
+        width: 50px;
+        float: inline-end;
+        margin-right: 1rem;
+        margin-top: 5px;
+    }
+
+    nav {
+        text-align: center;
+        padding-top: 10px;
+        position: absolute;
+        -webkit-transform: translate(-100%);
+        transform: translate(-100%);
+        right: 0;
+        left: 0;
+        background: #2D3691;
+        height: 100%;
+        -webkit-transition: .3s;
+        transition: .3s;
+        opacity: 0
+    }
+
+    nav.res-menu {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+        opacity: 1
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 40px
+    }
+
+    nav ul li a {
+        padding: 0
+    }*/
+    .hamburger-menu {
+        background: #2D3691;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 5px
+    }
+
+    nav ul li a {
+        display: block;
+        color: #fff;
+        padding: 0 11px;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    nav {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .hamburger-menu {
+        background: #2D3691;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 5px
+    }
+
+    nav ul li a {
+        display: block;
+        color: #fff;
+        padding: 0 17px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    nav {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    nav {
+        text-align: left;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #fff;
+        padding: 0 30px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 5px
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    nav {
+        text-align: left;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #fff;
+        padding: 0 40px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 5px
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    nav {
+        text-align: left;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #fff;
+        padding: 0 50px;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 5px
+    }
+}

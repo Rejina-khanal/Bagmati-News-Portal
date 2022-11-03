@@ -10,3 +10,8 @@ jQuery(function () {
         jQuery('#div' + $(this).attr('target')).show();
     });
 });
+
+$('.menu-tigger').on('click', function () {
+    $(this).toggleClass('button-tigger');
+    $('nav').toggleClass('res-menu');
+});

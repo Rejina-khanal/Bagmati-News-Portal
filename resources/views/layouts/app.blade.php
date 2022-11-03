@@ -11,6 +11,8 @@
 
     <!--Main css is used for navigation and footer-->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/menu.css') }}">
+
 
     <!--Font Awesome for Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -26,29 +28,24 @@
     <title>Bagmati</title>
 </head>
 
-
-
 <header>
-
-    <div class="row top-header">
-        <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-4 header-top date d-none d-md-block d-lg-block d-xl-block">
+    <div class="row top-header container-xxxl">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-4 order-2 order-sm-1 header-top date ">
             <p>२६ श्रावण २०७९, बिहिबार/ Thu Aug 11, 2022</p>
         </div>
-        <div class="col-7 col-sm-8 col-md-4 col-lg-4 col-xl-4 logo">
+        <div class="col-6 col-sm-3 col-md-4 col-lg-4 col-xl-4 order-1 order-sm-2 logo">
             <img src="{{ asset('assets/images/bagmati-header.png') }}" class="img-fluid" alt="">
         </div>
-        <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 header-top english gx-5">
+        <hr class="linee d-sm-none d-md-none d-lg-none d-xl-none order-3 ">
+
+        <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1 header-top english gx-5 order-3">
             <a href="#">English</a>
         </div>
-        <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 header-top nepali gx-5">
+        <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1 header-top nepali gx-5 order-4">
             <a href="#">नेपाली</a>
         </div>
-        <hr class="linee d-md-none d-lg-none d-xl-none ">
-        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-4 header-top date d-md-none d-lg-none d-xl-none">
-            <p>२६ श्रावण २०७९, बिहिबार/ Thu Aug 11, 2022</p>
-        </div>
 
-        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2 header-top social-media">
+        <div class="col-7 col-sm-3 col-md-3 col-lg-3 col-xl-2 header-top social-media order-5">
             <h2>
                 <a href="https://www.instagram.com/bagmatitvhd/"><i class="fa-brands fa-instagram fa-xs"></i></a>
                 <a href="https://www.facebook.com/bagmatitv"><i class="fa-brands fa-facebook fa-xs"></i></a>
@@ -58,54 +55,39 @@
             </h2>
 
         </div>
+        <hr class="linee d-sm-none d-md-none d-lg-none d-xl-none order-5">
+
     </div>
-
-    <nav class="navbar navbar-expand-md ">
+    <div class="hamburger-menu">
         <div class="container">
-            <a class="navbar-brand small-logo d-md-none d-lg-none d-xl-none" href="#">
-                <!--<img src="{{ asset('assets/images/logo.png') }}" alt="" height="40px" width="50px"
-                    class="d-inline-block align-text-top">-->
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav justify-content-center">
-                    <li class="nav-item text-white">
-                        <a class="nav-link" href="#">होमपेज</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">समाचार</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">बिजनेस</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">प्रदेश</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">स्वास्थ्य</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">मनोरञ्जन</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">खेलकुद</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">कला/साहित्य</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">विविध</a>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class=" col-sm-12">
+                    <div class="menu-tigger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="home.html">होमपेज</a></li>
+                            <li><a href="samachar.html">समाचार</a></li>
+                            <li><a href="business.html">बिजनेस</a></li>
+                            <li><a href="pradesh.html">प्रदेश</a></li>
+                            <li><a href="health.html">स्वास्थ्य</a></li>
+                            <li><a href="entertainment.html">मनोरञ्जन</a></li>
+                            <li><a href="sport.html">खेलकुद</a></li>
+                            <li><a href="sahitya.html">कला/साहित्य</a></li>
+                            <li><a href="bibidh.html">विविध</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
 
 </header>
+
+
 
 @yield('section')
 
@@ -200,3 +182,6 @@
 </body>
 
 </html>
+@section('script')
+    <script src="{{ asset('assets/js/home.js') }}"></script>
+@endsection

@@ -489,6 +489,10 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .top-header {
+        position: relative;
+    }
+
     .body_section {
         background: #F5F5F5;
         padding: 1rem 0;
@@ -496,19 +500,19 @@
 
     .slider {
         background-color: white;
-        margin: 0 2rem 1rem 2rem;
+        margin: 0 1rem 1rem 1rem;
         padding: 1rem;
     }
 
     /*mukhya samachar section*/
     .mukhya_samachar {
         background-color: white;
-        margin: 0 2rem 0 2rem;
+        margin: 0 1rem 0 1rem;
     }
 
     /*mukhya samachar body section*/
     .mukhya_samachar_body {
-        padding: 1rem;
+        padding: 7px 1rem;
     }
 
     /*slider heading*/
@@ -563,7 +567,7 @@
 
     /*samachar section*/
     .samachar {
-        margin: 0 42px 0 42px;
+        margin: 0 30px 0 30px;
     }
 
     /*samachar section image*/
@@ -752,7 +756,7 @@
 
     /*samachar section*/
     .swastha {
-        margin: 0 2rem 0 42px;
+        margin: 0 30px 0 30px;
     }
 
     /*swastha news image*/
@@ -795,12 +799,12 @@
     /*advertisement*/
     .advertisement {
         padding: 5px 0;
-        margin: 0 2rem 0 2rem;
+        margin: 0 1rem;
     }
 
     .advertisement_section {
         margin-bottom: 2px;
-        margin-left: 5px;
+        margin-left: 0;
         background-color: white;
     }
 
@@ -813,9 +817,9 @@
     /*khabar news section*/
     .khabar_section {
         background-color: white;
-        padding: 1rem;
+        padding: 1rem 10px;
         margin-left: 0;
-        margin-bottom: 10px;
+        margin-bottom: 11px;
     }
 
     .khabar_news {
@@ -839,9 +843,54 @@
         margin-bottom: 3px;
     }
 
+    .samachar .samachar_section {
+        background-color: white;
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+    }
+
+    .swastha .swastha_section {
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+    }
+
+    .samachar .business_section {
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+    }
+
+    .samachar .pradesh_section {
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+    }
+
+    .samachar .artha_section {
+        margin-bottom: 5px;
+        padding: 1rem 0;
+    }
+
+    .swastha .manoranjan_section {
+        margin-bottom: 5px;
+        padding: 1rem 0;
+    }
+
+    .swastha .samachar_section {
+        background-color: white;
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 576px) {
+    .top-header {
+        position: relative;
+    }
+
+    .body_section {
+        background: #F5F5F5;
+        padding: 1rem 0;
+    }
+
     .slider {
         background-color: white;
         margin: 0 2rem 1rem 2rem;
