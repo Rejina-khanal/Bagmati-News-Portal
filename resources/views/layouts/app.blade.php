@@ -34,7 +34,8 @@
             <p>२६ श्रावण २०७९, बिहिबार/ Thu Aug 11, 2022</p>
         </div>
         <div class="col-6 col-sm-3 col-md-4 col-lg-4 col-xl-4 order-1 order-sm-2 logo">
-            <img src="{{ asset('assets/images/bagmati-header.png') }}" class="img-fluid" alt="">
+            <a href=""> <img src="{{ asset('assets/images/bagmati-header.png') }}" class="img-fluid"
+                    alt=""></a>
         </div>
         <hr class="linee d-sm-none d-md-none d-lg-none d-xl-none order-3 ">
 
