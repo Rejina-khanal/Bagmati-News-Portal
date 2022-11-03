@@ -25,9 +25,6 @@ body {
     padding: 20px 0;
 }
 
-nav {
-    text-align: center;
-}
 
 nav ul {
     margin: 0;
@@ -414,6 +411,16 @@ footer .container {
         font-weight: bold;
         position: relative;
     }
+
+    .one {
+        margin-top: 14px;
+        margin-left: 5px;
+    }
+
+    .blue_line {
+        border-top: 3px solid #2D3691;
+        width: 30px;
+    }
 }
 
 /*media query for tablet and larger smart phone*/
@@ -585,11 +592,15 @@ footer .container {
 
     /**footer copyright**/
     .heading h1 {
-        font-size: 27px;
+        font-size: 25px;
         font-weight: bold;
         position: relative;
     }
 
+    .blue_line {
+        border-top: 3px solid #2D3691;
+        width: 40px;
+    }
 
 }
 
@@ -765,6 +776,16 @@ footer .container {
         font-size: 24px;
         font-weight: bold;
         position: relative;
+    }
+
+    .one {
+        margin-top: 14px;
+        margin-left: 5px;
+    }
+
+    .blue_line {
+        border-top: 3px solid #2D3691;
+        width: 40px;
     }
 }
 

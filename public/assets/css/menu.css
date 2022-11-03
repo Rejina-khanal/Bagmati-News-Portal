@@ -28,9 +28,9 @@ nav ul li:last-child a {
 }
 
 nav ul li:hover>a {
-    color: #fff;
-    opacity: .7;
-    text-decoration: none
+    color: #d75a5e;
+    text-decoration: none;
+    transform: scale(1.1);
 }
 
 .menu-tigger {
@@ -50,7 +50,7 @@ nav ul li:hover>a {
     transition: .5s
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 481px) {
     .hamburger-menu {
         background: #F5F5F5;
         color: red;
@@ -293,7 +293,7 @@ nav ul li:hover>a {
         color: #fff;
         padding: 0 40px;
         text-transform: uppercase;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     nav ul li {
@@ -312,7 +312,7 @@ nav ul li:hover>a {
         color: #fff;
         padding: 0 50px;
         text-transform: uppercase;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     nav ul li {
