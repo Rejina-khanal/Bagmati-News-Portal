@@ -24,7 +24,7 @@
                     <!--Slider Images-->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="">
+                            <a href="{{ route('homeDetails') }}">
                                 <img src="{{ asset('assets/images/slider.jpg') }}" class="d-block w-100" alt="...">
                             </a>
                         </div>

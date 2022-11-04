@@ -70,15 +70,15 @@
                     </div>
                     <nav>
                         <ul>
-                            <li><a href="home.html">होमपेज</a></li>
-                            <li><a href="samachar.html">समाचार</a></li>
-                            <li><a href="business.html">बिजनेस</a></li>
-                            <li><a href="pradesh.html">प्रदेश</a></li>
-                            <li><a href="health.html">स्वास्थ्य</a></li>
-                            <li><a href="entertainment.html">मनोरञ्जन</a></li>
-                            <li><a href="sport.html">खेलकुद</a></li>
-                            <li><a href="sahitya.html">कला/साहित्य</a></li>
-                            <li><a href="bibidh.html">विविध</a></li>
+                            <li><a href="{{ route('home') }}">होमपेज</a></li>
+                            <li><a href="{{ route('samachar') }}">समाचार</a></li>
+                            <li><a href="{{ route('business') }}">बिजनेस</a></li>
+                            <li><a href="{{ route('pradesh') }}">प्रदेश</a></li>
+                            <li><a href="{{ route('health') }}">स्वास्थ्य</a></li>
+                            <li><a href="{{ route('entertainment') }}">मनोरञ्जन</a></li>
+                            <li><a href="{{ route('sport') }}">खेलकुद</a></li>
+                            <li><a href="{{ route('sahitya') }}">कला/साहित्य</a></li>
+                            <li><a href="{{ route('bibidh') }}">विविध</a></li>
                         </ul>
                     </nav>
                 </div>
