@@ -13,7 +13,7 @@
 /*business body section start*/
 .business_body_section {
     background: #F5F5F5;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 .business_body {
@@ -908,8 +908,9 @@
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
     /*business body section start*/
+    /*business body section start*/
     .business_body_section {
-        padding: 1rem;
+        padding: 2rem 4rem;
     }
 
     .rojgar_news img {

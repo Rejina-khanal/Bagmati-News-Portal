@@ -6,7 +6,7 @@
 
 .body_section {
     background: #F5F5F5;
-    padding: 2rem 0;
+    padding: 2rem 3rem;
 }
 
 /*Slider Section*/
@@ -108,6 +108,7 @@
     background-color: white;
     margin-bottom: 1rem;
     padding: 1rem;
+
 }
 
 /*samachar section heading */
@@ -410,6 +411,7 @@
 .swastha .manoranjan_section {
     background-color: white;
     margin-bottom: 2rem;
+    margin-top: 1rem;
     padding: 1rem;
 }
 
@@ -1238,6 +1240,11 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
+    .body_section {
+        background: #F5F5F5;
+        padding: 1rem;
+    }
+
     .slider {
         background-color: white;
         margin: 0 2rem 1rem 2rem;
@@ -1584,6 +1591,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .body_section {
+        background: #F5F5F5;
+        padding: 1rem 0;
+    }
 
     /*slider heading*/
     .slider h2 {

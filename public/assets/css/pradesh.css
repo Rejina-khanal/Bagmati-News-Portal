@@ -14,7 +14,7 @@
 /*body section*/
 .body_section {
     background: #F5F5F5;
-    padding: 2rem 0;
+    padding: 2rem 4rem;
 }
 
 /*pradesh nav*/
@@ -314,6 +314,11 @@
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
 
+    /*body section*/
+    .body_section {
+        padding: 1rem;
+    }
+
     /*pradesh section*/
     .pradesh_page_samachar {
         background-color: white;
@@ -398,6 +403,11 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*body section*/
+    .body_section {
+        padding: 1rem 0;
+    }
 
     /*pradesh section*/
     .pradesh_page_samachar {

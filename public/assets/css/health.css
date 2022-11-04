@@ -10,7 +10,7 @@
 /*body section*/
 .health_body_section {
     background: #F5F5F5;
-    padding: 2rem 0;
+    padding: 2rem 4rem;
 }
 
 /*Main health news section*/
@@ -483,7 +483,7 @@
 
     .health_body_section {
         background: #F5F5F5;
-        padding: 1rem 0;
+        padding: 1rem;
     }
 
     /*Main health news section*/
@@ -613,6 +613,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .health_body_section {
+        background: #F5F5F5;
+        padding: 1rem;
+    }
 
     /*Main health news section*/
     .main_health_section {

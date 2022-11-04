@@ -13,7 +13,7 @@
 /*sahitya body section*/
 .sahitya_body_section {
     background: #F5F5F5;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 
@@ -386,11 +386,4 @@
     }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-
-    /*sahitya body section*/
-    .sahitya_body_section {
-        background: #F5F5F5;
-        padding: 2rem 1rem;
-    }
-}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}

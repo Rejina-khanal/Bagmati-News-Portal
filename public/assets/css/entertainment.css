@@ -27,7 +27,7 @@
 /*business body section start*/
 .business_body_section {
     background: #F5F5F5;
-    padding: 1rem;
+    padding: 1rem 4rem;
 }
 
 .business_body {
@@ -985,8 +985,11 @@
 
     /*business body section start*/
     .business_body_section {
-        padding: 10px 0 10px 0;
+        background: #F5F5F5;
+        padding: 1rem 4rem;
     }
+
+
 
     /*paryatan image*/
     .paryatan_body_imagee {

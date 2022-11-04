@@ -7,7 +7,7 @@
 /*body section*/
 .samachar_body_section {
     background: #F5F5F5;
-    padding: 2rem 0;
+    padding: 2rem 4rem;
 }
 
 /*samachar section*/
@@ -244,6 +244,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .samachar_body_section {
+        background: #F5F5F5;
+        padding: 1rem 0;
+    }
 
     /*main samachar image*/
     .main_samachar img {
