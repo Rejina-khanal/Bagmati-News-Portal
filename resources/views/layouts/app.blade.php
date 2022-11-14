@@ -68,6 +68,7 @@
                         <span></span>
                         <span></span>
                     </div>
+
                     <nav>
                         <ul>
                             <li><a href="{{ route('home') }}">होमपेज</a></li>
@@ -78,9 +79,25 @@
                             <li><a href="{{ route('entertainment') }}">मनोरञ्जन</a></li>
                             <li><a href="{{ route('sport') }}">खेलकुद</a></li>
                             <li><a href="{{ route('sahitya') }}">कला/साहित्य</a></li>
-                            <li><a href="{{ route('bibidh') }}">विविध</a></li>
+                            <!--<li><a href="bibidh.html">विविध</a></li>-->
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    अन्य
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                                    <li><a class="dropdown-item" href="{{ route('bibidh') }}">विविध</a></li><br>
+                                    <li><a class="dropdown-item" href="#">samachar</a></li><br>
+                                    <li><a class="dropdown-item" href="#">entertainment</a></li><br>
+                                    <li><a class="dropdown-item" href="#">samachar</a></li><br>
+                                    <li><a class="dropdown-item" href="#">entertainment</a></li><br>
+                                    <li><a class="dropdown-item" href="#">samachar</a></li><br>
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
+
                 </div>
             </div>
         </div>

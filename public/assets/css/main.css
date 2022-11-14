@@ -25,6 +25,35 @@ body {
 }
 
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+nav ul .dropdown ul {
+    margin-top: 5rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1px;
+}
+
+nav ul .dropdown ul li a {
+    color: black;
+    padding: 12px 0;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+
+nav ul .dropdown a {
+    padding-bottom: 1rem;
+}
+
+nav ul .dropdown ul li a:hover {
+    color: #55AAFF;
+    background-color: white;
+    transform: scale(1);
+}
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -207,6 +236,30 @@ footer .container {
 
 /*media query for mobile view*/
 @media only screen and (max-width: 480px) {
+
+    nav ul .dropdown ul {
+        margin-top: 1px;
+        padding: 10px;
+        margin-left: 7rem;
+        background-color: white;
+        border-radius: 1px;
+    }
+
+    nav ul .dropdown ul li a {
+        color: black;
+        padding: 2px 0;
+        font-size: 10px;
+        font-family: 'Poppins';
+        padding-bottom: 2px;
+    }
+
+    nav ul .dropdown a {
+        padding-bottom: 1px;
+    }
+
+    nav ul .dropdown ul li a:hover {
+        transform: scale(1);
+    }
 
     /* Thick red border */
     hr.linee {
@@ -573,6 +626,35 @@ footer .container {
 
 /*media query for tablet and larger smart phone*/
 @media only screen and (min-width: 576px) and (max-width: 670px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    nav ul .dropdown ul {
+        margin-top: 5rem;
+        padding: 10px;
+        background-color: white;
+        border-radius: 1px;
+        left: -150%;
+    }
+
+    nav ul .dropdown ul li a {
+        color: black;
+        padding: 8px 0;
+        font-size: 10px;
+        font-family: 'Poppins';
+    }
+
+    nav ul .dropdown a {
+        padding-bottom: 1rem;
+    }
+
+    nav ul .dropdown ul li a:hover {
+        color: #55AAFF;
+        background-color: white;
+        transform: scale(1);
+    }
 
     /* Thick red border */
     hr.linee {
@@ -758,6 +840,35 @@ footer .container {
 
 /*media query for tablet and larger smart phone*/
 @media only screen and (min-width: 670px) and (max-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    nav ul .dropdown ul {
+        margin-top: 5rem;
+        padding: 10px;
+        background-color: white;
+        border-radius: 1px;
+        left: -150%;
+    }
+
+    nav ul .dropdown ul li a {
+        color: black;
+        padding: 8px 0;
+        font-size: 10px;
+        font-family: 'Poppins';
+    }
+
+    nav ul .dropdown a {
+        padding-bottom: 1rem;
+    }
+
+    nav ul .dropdown ul li a:hover {
+        color: #55AAFF;
+        background-color: white;
+        transform: scale(1);
+    }
 
     /* Thick red border */
     hr.linee {
@@ -942,6 +1053,35 @@ footer .container {
 
 /*larger tablet*/
 @media only screen and (min-width: 769px) and (max-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    nav ul .dropdown ul {
+        margin-top: 5rem;
+        padding: 10px;
+        background-color: white;
+        border-radius: 1px;
+        left: -100%;
+    }
+
+    nav ul .dropdown ul li a {
+        color: black;
+        padding: 8px 0;
+        font-size: 10px;
+        font-family: 'Poppins';
+    }
+
+    nav ul .dropdown a {
+        padding-bottom: 1rem;
+    }
+
+    nav ul .dropdown ul li a:hover {
+        color: #55AAFF;
+        background-color: white;
+        transform: scale(1);
+    }
 
     /*heading top part*/
     .header-top {
