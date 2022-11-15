@@ -33,6 +33,9 @@ Route::get('sahitya', [SahityaController::class, 'index'])->name('sahitya');
 Route::get('bibidh', [BibidhController::class, 'index'])->name('bibidh');
 Route::get('samachar', [SamacharController::class, 'index'])->name('samachar');
 
+Route::get('/defaultpage', function () {
+    return view('defaultpage');
+});
 /*Route::get('/', function () {
     return view('home');
 });
