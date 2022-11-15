@@ -26,7 +26,9 @@
                         <!--<h5>३ भाद्र २०७९, शुक्रबार</h5>-->
                         <div class="heading author">
                             <h5 class="line">३ भाद्र २०७९, शुक्रबार</h5>
-                            <div class="{{ asset('assets/images/bhanubhakta.png') }}" alt="Avatar">
+
+                            <div class="line">
+                                <img src="{{ asset('assets/images/bhanubhakta.png') }}" alt="Avatar">
                             </div>
                             <h5 class="line">हिरोसिमा</h5>
                         </div>
