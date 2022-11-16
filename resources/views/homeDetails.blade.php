@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/homeDetails.css') }}">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 
 @extends('layouts.app')
@@ -21,7 +22,7 @@
                     </div>
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/offer2.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="item">
                             <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
@@ -480,7 +481,10 @@
                 600: {
                     items: 3
                 },
-                1000: {
+                800: {
+                    items: 4
+                },
+                1100: {
                     items: 5
                 }
             }
