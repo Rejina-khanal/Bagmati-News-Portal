@@ -4,6 +4,18 @@
     font-family: 'Mukta', sans-serif;
 }
 
+.container {
+    position: relative;
+}
+
+.owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #fff;
+}
+
 
 /*home detail body*/
 .home_detail_body {
