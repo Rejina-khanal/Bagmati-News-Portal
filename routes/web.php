@@ -40,6 +40,9 @@ Route::get('/defaultpage', function () {
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
+Route::get('/gallery', function () {
+    return view('gallery');
+});
 /*Route::get('/', function () {
     return view('home');
 });

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+.heading {
+    display: flex;
+}
+
+.blue_line {
+    border-top: 4px solid #2D3691;
+    width: 70px;
+}
+
+.one {
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+/*.sahitya_body_section {
+    background-color: white;
+    margin: 0 4rem 0 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+}*/
+
+/*business body section start*/
+.business_body_section {
+    background: #F5F5F5;
+    padding: 1rem 4rem;
+}
+
+/*paryatan news section*/
+.paryatan_body {
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: 1rem 4rem 0 4rem;
+}
+
+.vid-wrapper {
+    text-align: center;
+    padding: 0;
+}
+
+.vid {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.vid::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h2.vid-head {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Video Popup */
+.video-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 998;
+    background: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    display: none !important;
+}
+
+.video-popup.show-video {
+    display: flex !important;
+}
+
+.vid-slider .vid-wrapper iframe {
+    width: 100%;
+}
+
+.iframe-wrapper {
+    position: relative;
+}
+
+
+
+.iframe-wrapper iframe {
+    width: 35rem;
+    height: 25rem;
+}
+
+.iframe-wrapper .close-video {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -20px;
+    right: 0;
+    background: url(https://image.flaticon.com/icons/svg/149/149690.svg) #fff;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+    .business_body_section h2 {
+        font-size: 12px;
+    }
+
+    .paryatan_body {
+        padding: 1rem;
+        margin: 5px 1rem;
+    }
+
+    /*business body section start*/
+    .business_body_section {
+        padding: 10px 0 10px 0;
+    }
+
+    .iframe-wrapper iframe {
+        width: 20rem;
+        height: 15rem;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+    .business_body_section h2 {
+        font-size: 14px;
+    }
+
+    .paryatan_body {
+        padding: 1rem;
+        margin: 10px 2rem 0 2rem;
+    }
+
+    /*business body section start*/
+    .business_body_section {
+        padding: 10px 0 10px 0;
+    }
+
+    .iframe-wrapper iframe {
+        width: 25rem;
+        height: 16rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .business_body_section h2 {
+        font-size: 14px;
+    }
+
+    .paryatan_body {
+        padding: 1rem;
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    /*business body section start*/
+    .business_body_section {
+        padding: 10px 0 10px 0;
+    }
+
+    .iframe-wrapper iframe {
+        width: 30rem;
+        height: 20rem;
+        margin-bottom: 10rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .business_body_section h2 {
+        font-size: 14px;
+    }
+
+    /*business body section start*/
+    .business_body_section {
+        padding: 10px 0 10px 0;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .business_body_section h2 {
+        font-size: 16px;
+    }
+
+    /*business body section start*/
+    .business_body_section {
+        background: #F5F5F5;
+        padding: 1rem 4rem;
+    }
+
+}
