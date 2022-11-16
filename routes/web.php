@@ -36,6 +36,10 @@ Route::get('samachar', [SamacharController::class, 'index'])->name('samachar');
 Route::get('/defaultpage', function () {
     return view('defaultpage');
 });
+
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
 /*Route::get('/', function () {
     return view('home');
 });

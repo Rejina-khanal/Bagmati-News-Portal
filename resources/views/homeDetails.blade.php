@@ -19,6 +19,15 @@
                             केही होइन । यो भ्रमबाट सबै नेपाली जनता मुक्त हुनुपर्दछ ।</h3>
                         <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
                     </div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
+                        </div>
+
+                    </div>
                     <div class="row">
                         <!--Main news detail-->
                         <div class="col-7 col-sm-8 col-md-8 col-lg-8 col-xl-8 home_main_detail">
@@ -459,4 +468,25 @@
     </script>
 
     <script src="{{ asset('assets/js/home.js') }}"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 @endsection

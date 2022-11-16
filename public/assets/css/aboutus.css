@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+.aboutus {
+    background: #F5F5F5;
+    padding: 2rem 4rem;
+}
+
+/*samachar section*/
+.aboutus_body {
+    background-color: white;
+    margin: 0 4rem 0 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.aboutus-detail p {
+    opacity: 0.8;
+    text-align: justify;
+}
+
+.aboutus_body .aboutus_image img {
+    width: 100%;
+    object-fit: fill;
+}
+
+@media only screen and (max-width: 480px) {
+    .aboutus {
+        padding: 1rem 0;
+    }
+
+    .aboutus_body {
+        margin: 0 1rem 0 1rem;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+    .aboutus {
+        padding: 1rem 0;
+    }
+
+    .aboutus_body {
+        margin: 0 2rem 0 2rem;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .aboutus {
+        padding: 1rem 0;
+    }
+
+    .aboutus_body {
+        margin: 0 2rem 0 2rem;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .aboutus {
+        background: #F5F5F5;
+        padding: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
