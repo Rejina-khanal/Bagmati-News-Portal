@@ -334,7 +334,9 @@
                                                     </div>
                                                     <!--Pradesh 1 main news detail-->
                                                     <div class="col-6">
-                                                        <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
+                                                        <a href="#" class="change">
+                                                            <h3>कुलमान पढेको विद्यालयमा वर्षमानको एक घण्टा</h3>
+                                                        </a>
                                                         <p>३ भाद्र २०७९, शुक्रबार</p>
                                                         <h2>
                                                             रामेछाप । अबिरल बर्षासँगै आएको बाढीले गोकुलगंगा गाउँपालिका–२
@@ -357,7 +359,9 @@
 
                                                     <!--Pradesh 1 other news detail-->
                                                     <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        <a href="#" class="change">
+                                                            <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        </a>
                                                         <p>३ भाद्र २०७९, शुक्रबार</p>
                                                     </div>
                                                 </div>
@@ -374,25 +378,9 @@
 
                                                     <!--Pradesh 1 other news detail-->
                                                     <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
-                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news">
-                                                <div class="row ">
-                                                    <div class="col-6">
-                                                        <!--Pradesh 1 other news image-->
-                                                        <a href="">
-                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
-                                                                class="img-fluid" alt="">
+                                                        <a href="#" class="change">
+                                                            <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
                                                         </a>
-                                                    </div>
-
-                                                    <!--Pradesh 1 other news detail-->
-                                                    <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
                                                         <p>३ भाद्र २०७९, शुक्रबार</p>
                                                     </div>
                                                 </div>
@@ -410,7 +398,29 @@
 
                                                     <!--Pradesh 1 other news detail-->
                                                     <div class="col-6">
-                                                        <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        <a href="#" class="change">
+                                                            <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        </a>
+                                                        <p>३ भाद्र २०७९, शुक्रबार</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pradesh_news">
+                                                <div class="row ">
+                                                    <div class="col-6">
+                                                        <!--Pradesh 1 other news image-->
+                                                        <a href="">
+                                                            <img src="{{ asset('assets/images/samachar.jpg') }}"
+                                                                class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+
+                                                    <!--Pradesh 1 other news detail-->
+                                                    <div class="col-6">
+                                                        <a href="#" class="change">
+                                                            <h4>अश्लील नृत्य गर्ने ९ जनालाई नियन्त्रणमा लिएर छोडियो</h4>
+                                                        </a>
                                                         <p>३ भाद्र २०७९, शुक्रबार</p>
                                                     </div>
                                                 </div>
@@ -974,7 +984,9 @@
                                         alt="">
                                 </a>
                                 <!--Artha news title-->
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
 
                             </div>
 
@@ -986,7 +998,9 @@
                                         alt="">
                                 </a>
                                 <!--Artha news title-->
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                             </div>
 
                             <!--Artha news -->
@@ -997,7 +1011,9 @@
                                         alt="">
                                 </a>
                                 <!--Artha news title-->
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                             </div>
 
                             <!--Artha news -->
@@ -1005,7 +1021,9 @@
                                 <!--Artha news image-->
                                 <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
                                 <!--Artha news title-->
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                             </div>
                         </div>
                         <!--Artha Section end-->
@@ -1125,6 +1143,7 @@
                                     </a>
                                     <!--Swastha news title-->
                                     <div class="swastha_image_text">
+
                                         <h4>कोलेस्टेरोल आफैंमा रोग होइन</h4>
                                     </div>
                                 </div>
@@ -1310,7 +1329,9 @@
                                     <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
                                         alt="">
                                 </a>
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                             </div>
                             <!--sahitya news-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
@@ -1318,7 +1339,9 @@
                                     <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
                                         alt="">
                                 </a>
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                             </div>
                             <!--sahitya news-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
@@ -1326,7 +1349,9 @@
                                     <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
                                         alt="">
                                 </a>
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                             </div>
                             <!--sahitya news-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
@@ -1334,7 +1359,9 @@
                                     <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
                                         alt="">
                                 </a>
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                             </div>
                         </div>
                         <!--Sahitya section end-->
