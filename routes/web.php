@@ -43,6 +43,12 @@ Route::get('/aboutus', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+Route::get('/authorpage', function () {
+    return view('authorpage');
+});
+Route::get('/authorDetail', function () {
+    return view('authorDetail');
+});
 /*Route::get('/', function () {
     return view('home');
 });

@@ -4,6 +4,11 @@
     font-family: 'Mukta', sans-serif;
 }
 
+.change {
+    text-decoration: none;
+    color: black;
+}
+
 .body_section {
     background: #F5F5F5;
     padding: 2rem 3rem;
@@ -144,7 +149,20 @@
     color: white;
     padding: 2px 22px;
     border-radius: 12px;
-    cursor: auto;
+
+}
+
+.business_section .type {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    border-radius: 0;
+}
+
+.business_section .type:hover {
+    background-color: white;
+    color: black;
 }
 
 .business_section a:hover {

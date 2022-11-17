@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+.aboutus {
+    background: #F5F5F5;
+    padding: 2rem 4rem;
+}
+
+/*samachar section*/
+.aboutus_body {
+    background-color: white;
+    margin: 0 4rem 0 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+/*Card in host*/
+.host-card-box {
+    margin-bottom: 30px;
+    float: left;
+    border-radius: 10px;
+    background-color: #c7d5e9;
+    text-align: center;
+}
+
+/*image in host card*/
+.host-card-box .host-card-image {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    height: 10rem;
+}
+
+.host-card-box .host-card-image img {
+    object-fit: fill;
+}
+
+.host-card-box a {
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+/*paragraph inside the card*/
+.host-card-box p {
+    padding: 10px 5px 5px 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    .aboutus {
+        padding: 1rem 0;
+    }
+
+    .aboutus_body {
+        margin: 0 1rem 0 1rem;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+    .aboutus {
+        padding: 1rem 0;
+    }
+
+    .aboutus_body {
+        margin: 0 2rem 0 2rem;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .aboutus {
+        padding: 1rem 0;
+    }
+
+    .aboutus_body {
+        margin: 0 2rem 0 2rem;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .aboutus {
+        background: #F5F5F5;
+        padding: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}

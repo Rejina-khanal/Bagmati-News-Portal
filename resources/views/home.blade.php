@@ -89,8 +89,10 @@
                                 </a>
                             </div>
                             <div class="col-7">
-                                <!--Mukhya samachar title-->
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <!--Mukhya samachar title-->
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
 
                             </div>
                         </div>
@@ -104,8 +106,10 @@
                                 </a>
                             </div>
                             <div class="col-7">
-                                <!--Mukhya samachar title-->
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <!--Mukhya samachar title-->
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
 
                             </div>
                         </div>
@@ -118,8 +122,10 @@
                                 </a>
                             </div>
                             <div class="col-7">
-                                <!--Mukhya samachar title-->
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <!--Mukhya samachar title-->
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
 
                             </div>
                         </div>
@@ -133,8 +139,9 @@
                             </div>
                             <div class="col-7">
                                 <!--Mukhya samachar title-->
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
-
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +177,9 @@
                                             alt="">
                                     </a>
                                     <!--Samachar title-->
-                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                    <a href="#" class="change">
+                                        <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                    </a>
                                 </div>
                                 <!--Samachar part end-->
 
@@ -182,7 +191,9 @@
                                             alt="">
                                     </a>
                                     <!--Samachar title-->
-                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                    <a href="#" class="change">
+                                        <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                    </a>
                                 </div>
                                 <!--Samachar part end-->
 
@@ -194,7 +205,9 @@
                                             alt="">
                                     </a>
                                     <!--Samachar title-->
-                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                    <a href="#" class="change">
+                                        <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                    </a>
                                 </div>
                                 <!--Samachar part end-->
 
@@ -206,7 +219,9 @@
                                             alt="">
                                     </a>
                                     <!--Samachar title-->
-                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                    <a href="#" class="change">
+                                        <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                    </a>
                                 </div>
                                 <!--Samachar part end-->
                             </div>
@@ -233,7 +248,9 @@
                                     <!--Main Business News Detail-->
                                     <div class="col-6">
                                         <a href="#">कर्पोरेट</a>
-                                        <h4>कति छ आज सुन चाँदीको मूल्य ?</h4>
+                                        <a href="#" class="type">
+                                            <h4>कति छ आज सुन चाँदीको मूल्य ?</h4>
+                                        </a>
                                         <p>३ भाद्र २०७९, शुक्रबार</p>
                                     </div>
                                 </div>
@@ -245,7 +262,9 @@
                                 <img src="{{ asset('assets/images/business.jpg') }}" class="img-fluid" alt="">
                                 <!--Business news details-->
                                 <a href="#">रोजगार</a>
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="type">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                                 <p>३ भाद्र २०७९, शुक्रबार</p>
                             </div>
                             <div class="col-4 business_section_news">
@@ -253,7 +272,9 @@
                                 <img src="{{ asset('assets/images/business.jpg') }}" class="img-fluid" alt="">
                                 <!--Business news details-->
                                 <a href="#">रोजगार</a>
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="type">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                                 <p>३ भाद्र २०७९, शुक्रबार</p>
                             </div>
                             <div class="col-4 business_section_news">
@@ -261,7 +282,9 @@
                                 <img src="{{ asset('assets/images/business.jpg') }}" class="img-fluid" alt="">
                                 <!--Business news details-->
                                 <a href="#">रोजगार</a>
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="type">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                                 <p>३ भाद्र २०७९, शुक्रबार</p>
                             </div>
                             <!--Business other news section End-->
@@ -946,7 +969,22 @@
                             <!--Artha news -->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <!--Artha news image-->
-                                <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
+                                <a href="">
+                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
+                                <!--Artha news title-->
+                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+
+                            </div>
+
+                            <!--Artha news -->
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                                <!--Artha news image-->
+                                <a href="">
+                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                                 <!--Artha news title-->
                                 <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                             </div>
@@ -954,15 +992,10 @@
                             <!--Artha news -->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <!--Artha news image-->
-                                <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
-                                <!--Artha news title-->
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
-                            </div>
-
-                            <!--Artha news -->
-                            <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                                <!--Artha news image-->
-                                <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
+                                <a href="">
+                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                                 <!--Artha news title-->
                                 <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                             </div>
@@ -991,8 +1024,10 @@
                             <div class="col-12">
                                 <div class="trending_image">
                                     <!--Main Trending Image-->
-                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--Main Trending detail-->
                                     <div class="trending_image_text">
                                         <h4>रामेछापमा बाढीले पाँच घर बगायोघर बगायोघर बगायोघर बगायो</h4>
@@ -1002,37 +1037,49 @@
 
                             <!--Trending news detail-->
                             <div class="trending_news">
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                                 <p>३ भाद्र २०७९, शुक्रबार</p>
                             </div>
 
                             <!--Trending news detail-->
                             <div class="trending_news">
-                                <h4>कति छ आज सुन चाँदीको मूल्य ?</h4>
+                                <a href="#" class="change">
+                                    <h4>कति छ आज सुन चाँदीको मूल्य ?</h4>
+                                </a>
                                 <p>३ भाद्र २०७९, शुक्रबार</p>
                             </div>
 
                             <!--Trending news detail-->
                             <div class="trending_news">
-                                <h4>नयाँ युगमा प्रवेश गर्दैछ पोखरा</h4>
+                                <a href="#" class="change">
+                                    <h4>नयाँ युगमा प्रवेश गर्दैछ पोखरा</h4>
+                                </a>
                                 <p>३ भाद्र २०७९, शुक्रबार</p>
                             </div>
 
                             <!--Trending news detail-->
                             <div class="trending_news">
-                                <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                <a href="#" class="change">
+                                    <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
+                                </a>
                                 <p>३ भाद्र २०७९, शुक्रबार</p>
                             </div>
 
                             <!--Trending news detail-->
                             <div class="trending_news">
-                                <h4>कति छ आज सुन चाँदीको मूल्य ?</h4>
+                                <a href="#" class="change">
+                                    <h4>कति छ आज सुन चाँदीको मूल्य ?</h4>
+                                </a>
                                 <p>३ भाद्र २०७९, शुक्रबार</p>
                             </div>
 
                             <!--Trending news detail-->
                             <div class="trending_news">
-                                <h4>नयाँ युगमा प्रवेश गर्दैछ पोखरा</h4>
+                                <a href="#" class="change">
+                                    <h4>नयाँ युगमा प्रवेश गर्दैछ पोखरा</h4>
+                                </a>
                                 <p>३ भाद्र २०७९, शुक्रबार</p>
                             </div>
                         </div>
@@ -1072,8 +1119,10 @@
                             <div class="col-6">
                                 <!--Swastha news image-->
                                 <div class="swastha_image">
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--Swastha news title-->
                                     <div class="swastha_image_text">
                                         <h4>कोलेस्टेरोल आफैंमा रोग होइन</h4>
@@ -1085,8 +1134,10 @@
                             <div class="col-6">
                                 <!--Swastha news image-->
                                 <div class="swastha_image">
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--Swastha news title-->
                                     <div class="swastha_image_text">
                                         <h4>कोलेस्टेरोल आफैंमा रोग होइन</h4>
@@ -1108,8 +1159,10 @@
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <div class="manoranjan_image">
                                     <!--Manoranjan news image-->
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--Manoranjan news detail-->
                                     <div class="manoranjan_image_text">
                                         <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
@@ -1121,8 +1174,10 @@
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <div class="manoranjan_image">
                                     <!--Manoranjan news image-->
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--Manoranjan news detail-->
                                     <div class="manoranjan_image_text">
                                         <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
@@ -1136,8 +1191,10 @@
                                     <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                         <div class="manoranjan_images">
                                             <!--Manoranjan news image-->
-                                            <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                                alt="">
+                                            <a href="#">
+                                                <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                                    alt="">
+                                            </a>
                                             <!--Manoranjan news detail-->
                                             <div class="manoranjan_image_text">
                                                 <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
@@ -1147,8 +1204,10 @@
                                     <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                         <!--Manoranjan news image-->
                                         <div class="manoranjan_images">
-                                            <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                                alt="">
+                                            <a href="#">
+                                                <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                                    alt="">
+                                            </a>
                                             <!--Manoranjan news detail-->
                                             <div class="manoranjan_image_text">
                                                 <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
@@ -1195,8 +1254,10 @@
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <!--khelkud news image-->
                                 <div class="manoranjan_image">
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--khelkud news detail-->
                                     <div class="manoranjan_image_text">
                                         <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
@@ -1208,8 +1269,10 @@
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <!--khelkud news image-->
                                 <div class="manoranjan_image">
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--khelkud news detail-->
                                     <div class="manoranjan_image_text">
                                         <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
@@ -1221,8 +1284,10 @@
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <!--khelkud news image-->
                                 <div class="manoranjan_image">
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <!--khelkud news detail-->
                                     <div class="manoranjan_image_text">
                                         <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
@@ -1241,22 +1306,34 @@
                             </div>
                             <!--sahitya news-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                                <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
+                                <a href="#">
+                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                                 <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                             </div>
                             <!--sahitya news-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                                <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
+                                <a href="#">
+                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                                 <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                             </div>
                             <!--sahitya news-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                                <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
+                                <a href="#">
+                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                                 <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                             </div>
                             <!--sahitya news-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                                <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid" alt="">
+                                <a href="#">
+                                    <img src="{{ asset('assets/images/samachar.jpg') }}" class="img-fluid"
+                                        alt="">
+                                </a>
                                 <h4>७७ वर्षपछिको हिरोसिमा र नागासाकी</h4>
                             </div>
                         </div>
@@ -1272,8 +1349,10 @@
                             <!--Bibid samachar-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <div class="manoranjan_image">
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <div class="manoranjan_image_text">
                                         <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
                                     </div>
@@ -1283,8 +1362,10 @@
                             <!--Bibid samachar-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <div class="manoranjan_image">
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <div class="manoranjan_image_text">
                                         <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
                                     </div>
@@ -1294,8 +1375,10 @@
                             <!--Bibid samachar-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                 <div class="manoranjan_image">
-                                    <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
-                                        alt="">
+                                    <a href="#">
+                                        <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid"
+                                            alt="">
+                                    </a>
                                     <div class="manoranjan_image_text">
                                         <h4>फिल्म प्रदर्शनमा विभेद गरिएको भन्दै जुम्ला प्रशासनमा ज्ञापन</h4>
                                     </div>
@@ -1322,7 +1405,9 @@
                                         alt="">
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
-                                    <p>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</p>
+                                    <a href="#" class="change">
+                                        <p>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -1333,7 +1418,9 @@
                                         alt="">
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
-                                    <p>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</p>
+                                    <a href="#" class="change">
+                                        <p>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -1344,7 +1431,9 @@
                                         alt="">
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
-                                    <p>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</p>
+                                    <a href="#" class="change">
+                                        <p>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -1355,7 +1444,9 @@
                                         alt="">
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
-                                    <p>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</p>
+                                    <a href="#" class="change">
+                                        <p>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</p>
+                                    </a>
                                 </div>
                             </div>
 
