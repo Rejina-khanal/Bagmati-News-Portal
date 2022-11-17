@@ -13,7 +13,9 @@
                 <section class="home_main">
                     <!--Main news part-->
                     <div class="home_main_news">
-                        <h2>प्रचण्ड र बाबुरामबीच भेटवार्ता, के भयो छलफल ?</h2>
+                        <a href="#" class="change">
+                            <h2>प्रचण्ड र बाबुरामबीच भेटवार्ता, के भयो छलफल ?</h2>
+                        </a>
 
                         <h3>अहिले वैवाहिक अंगीकृतलाई नागरिकता दिंदा निश्चित समयावधि नतोक्दा राष्ट्रियता नै खतरामा पर्छ भन्नु
                             दुष्प्रचार भन्दा बढी
@@ -207,7 +209,9 @@
                                         <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
-                                        <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
+                                        <a href="#" class="change">
+                                            <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
+                                        </a>
                                     </div>
                                 </div>
                                 <!--Sifarish news-->
@@ -216,7 +220,9 @@
                                         <img src="{{ asset('assets/images/slider.jpg') }}" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
-                                        <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
+                                        <a href="#" class="change">
+                                            <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -242,7 +248,9 @@
 
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
-                                        <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
+                                        <a href="#" class="change">
+                                            <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
+                                        </a>
                                     </div>
                                 </div>
                                 <!--khabar news-->
@@ -252,7 +260,9 @@
 
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
-                                        <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
+                                        <a href="#" class="change">
+                                            <h5>पर्खाइमा बित्यो दुई दशक, सकिएन दुःखका पहाड</h5>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -282,19 +292,27 @@
                 <div class="row">
                     <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 sambandit_khabar_news"> <img
                             src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
-                        <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
+                        <a href="#" class="change">
+                            <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
+                        </a>
                     </div>
                     <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 sambandit_khabar_news"> <img
                             src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
-                        <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
+                        <a href="#" class="change">
+                            <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
+                        </a>
                     </div>
                     <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 sambandit_khabar_news"> <img
                             src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
-                        <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
+                        <a href="#" class="change">
+                            <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
+                        </a>
                     </div>
                     <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 sambandit_khabar_news"> <img
                             src="{{ asset('assets/images/samacharImage.png') }}" class="img-fluid" alt="">
-                        <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
+                        <a href="#" class="change">
+                            <p>विधायन समितिबाट नागरिकता विधेयक हुबहु पारित, एमालेको फरक मत</p>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -314,7 +332,9 @@
                                 <a href="#">१</a>
                             </div>
                             <div class="col-10">
-                                <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                <a href="#" class="change">
+                                    <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="trending_line">
@@ -326,7 +346,9 @@
                                 <a href="#">२</a>
                             </div>
                             <div class="col-10">
-                                <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                <a href="#" class="change">
+                                    <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="trending_line">
@@ -338,7 +360,9 @@
                                 <a href="#">३</a>
                             </div>
                             <div class="col-10">
-                                <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                <a href="#" class="change">
+                                    <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="trending_line">
@@ -350,7 +374,9 @@
                                 <a href="#">४</a>
                             </div>
                             <div class="col-10">
-                                <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                <a href="#" class="change">
+                                    <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="trending_line">
@@ -362,7 +388,9 @@
                                 <a href="#">५</a>
                             </div>
                             <div class="col-10">
-                                <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                <a href="#" class="change">
+                                    <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="trending_line">
@@ -374,7 +402,9 @@
                                 <a href="#">६</a>
                             </div>
                             <div class="col-10">
-                                <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                <a href="#" class="change">
+                                    <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="trending_line">
@@ -386,7 +416,9 @@
                                 <a href="#">७</a>
                             </div>
                             <div class="col-10">
-                                <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                <a href="#" class="change">
+                                    <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="trending_line">
@@ -398,7 +430,9 @@
                                 <a href="#">८</a>
                             </div>
                             <div class="col-10">
-                                <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                <a href="#" class="change">
+                                    <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="trending_line">
@@ -410,7 +444,9 @@
                                 <a href="#">९</a>
                             </div>
                             <div class="col-10">
-                                <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                <a href="#" class="change">
+                                    <p>पार्लर धाउँछन् पुरुष पनि</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="trending_line">
@@ -428,7 +464,9 @@
                 <div class="row">
                     <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 gx-5">
                         <div class="chutaunuBhayoKi_image">
-                            <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
+                            <a href="#">
+                                <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
+                            </a>
                             <div class="chutaunuBhayoKi_image_text">
                                 <h4>पुरुष सौन्दर्य : फेसनमा थरीथरीका दाह्री</h4>
                             </div>
@@ -436,7 +474,9 @@
                     </div>
                     <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 gx-5">
                         <div class="chutaunuBhayoKi_image">
-                            <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
+                            <a href="#">
+                                <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
+                            </a>
                             <div class="chutaunuBhayoKi_image_text">
                                 <h4>पुरुष सौन्दर्य : फेसनमा थरीथरीका दाह्री</h4>
                             </div>
@@ -445,7 +485,9 @@
 
                     <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 gx-5">
                         <div class="chutaunuBhayoKi_image">
-                            <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
+                            <a href="#">
+                                <img src="{{ asset('assets/images/swastha.jpg') }}" class="img-fluid" alt="">
+                            </a>
                             <div class="chutaunuBhayoKi_image_text">
                                 <h4>पुरुष सौन्दर्य : फेसनमा थरीथरीका दाह्री</h4>
                             </div>
