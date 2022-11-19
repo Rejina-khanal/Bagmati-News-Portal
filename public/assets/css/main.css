@@ -236,21 +236,33 @@ footer .container {
 
 /*media query for mobile view*/
 @media only screen and (max-width: 480px) {
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
 
     nav ul .dropdown ul {
-        margin-top: 1px;
-        padding: 10px;
-        margin-left: 7rem;
+        margin-top: 1rem;
+        padding: 10px 0 0 10px;
         background-color: white;
         border-radius: 1px;
     }
 
+    nav ul li .dropdown ul {
+        padding: 0;
+    }
+
+    nav ul li ul li a {
+        display: block;
+        line-height: 0px
+    }
+
     nav ul .dropdown ul li a {
         color: black;
-        padding: 2px 0;
+        padding: 0 0;
         font-size: 10px;
         font-family: 'Poppins';
-        padding-bottom: 2px;
+        padding-bottom: 0;
     }
 
     nav ul .dropdown a {
@@ -445,7 +457,34 @@ footer .container {
 
 /*media query for tablet and larger smart phone*/
 @media only screen and (min-width: 481px) and (max-width: 576px) {
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
 
+    nav ul .dropdown ul {
+        margin-top: 1rem;
+        padding: 10px 0 0 10px;
+        background-color: white;
+        border-radius: 1px;
+    }
+
+    nav ul li .dropdown ul {
+        padding: 0;
+    }
+
+    nav ul li ul li a {
+        display: block;
+        line-height: 0px
+    }
+
+    nav ul .dropdown ul li a {
+        color: black;
+        padding: 0 0;
+        font-size: 10px;
+        font-family: 'Poppins';
+        padding-bottom: 0;
+    }
 
     /* Thick red border */
     hr.linee {
