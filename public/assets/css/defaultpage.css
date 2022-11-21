@@ -20,17 +20,19 @@
     padding: 2rem 4rem;
 }
 
-.author .line img {
+.samachar_body_section .author .line img {
     margin: 0 10px 5px 1rem;
     border-radius: 50%;
     height: 20px;
     width: 20px;
 }
 
-.samachar_news .author h5 {
+.samachar_body_section .author h5 {
     font-size: 14px;
     color: #766F6F;
 }
+
+
 
 .mukhya_samachar {
     background-color: white;
@@ -115,14 +117,14 @@
         padding: 1rem;
     }
 
-    .author .line img {
+    .samachar_body_section .author .line img {
         margin: 0 10px 10px 5px;
         border-radius: 50%;
         height: 15px;
         width: 15px;
     }
 
-    .author h5 {
+    .samachar_body_section .author h5 {
         font-size: 8px;
         color: #766F6F;
     }
@@ -194,14 +196,14 @@
         padding: 1rem;
     }
 
-    .author .line img {
+    .samachar_body_section .author .line img {
         margin: 0 10px 10px 5px;
         border-radius: 50%;
         height: 20px;
         width: 20px;
     }
 
-    .author h5 {
+    .samachar_body_section .author h5 {
         font-size: 10px;
         color: #766F6F;
     }
@@ -273,14 +275,14 @@
         padding: 1rem;
     }
 
-    .author .line img {
+    .samachar_body_section .author .line img {
         margin: 0 5px 10px 5px;
         border-radius: 50%;
         height: 15px;
         width: 15px;
     }
 
-    .author h5 {
+    .samachar_body_section .author h5 {
         font-size: 8px;
         color: #766F6F;
     }
@@ -343,14 +345,14 @@
         padding: 1rem 0;
     }
 
-    .author .line img {
+    .samachar_body_section .author .line img {
         margin: 0 5px 10px 5px;
         border-radius: 50%;
         height: 20px;
         width: 20px;
     }
 
-    .author h5 {
+    .samachar_body_section .author h5 {
         font-size: 10px;
         color: #766F6F;
     }
