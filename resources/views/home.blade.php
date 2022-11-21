@@ -62,6 +62,9 @@
                     <div class="heading">
                         <h1 class="line">मुख्य समाचार</h1>
                         <div class="line blue_line one"></div>
+                        <div class="top-right name"><a href="samachar.html" class="line"><i
+                                    class="fa-solid fa-square fa-xs"></i>
+                                थप</a></div>
                     </div>
                     <div class="col-6 main_mukhya_samachar_image ">
                         <!--Mukhya samachar image-->
@@ -167,6 +170,9 @@
                             <div class="heading">
                                 <h1 class="line">समाचार</h1>
                                 <div class="line blue_line one"></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
                             <div class="row">
                                 <!--Samachar part start-->
@@ -234,6 +240,9 @@
                             <div class="heading">
                                 <h1 class="line">बिजनेस</h1>
                                 <div class="line blue_line one"></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
 
                             <!--Main Business news start-->
@@ -974,6 +983,9 @@
                             <div class="heading">
                                 <h1 class="line">अर्थ</h1>
                                 <div class="line blue_line one"></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
 
                             <!--Artha news -->
@@ -1037,6 +1049,9 @@
                             <div class="heading">
                                 <h1 class="line">ट्रेन्डिङ</h1>
                                 <div class="line blue_line one"></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
                             <!--Main Trending news-->
                             <div class="col-12">
@@ -1131,6 +1146,9 @@
                             <div class="heading">
                                 <h1 class="line">स्वास्थ्य</h1>
                                 <div class="line blue_line one"></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
 
                             <!--Swastha news-->
@@ -1172,6 +1190,9 @@
                                 <!--Manoranjan news heading-->
                                 <h1 class="line">मनोरञ्जन</h1>
                                 <div class="line blue_line one"></div>
+                                 <div class="top-right name"><a href="samachar.html" class="line"><i
+                                    class="fa-solid fa-square fa-xs"></i>
+                                थप</a></div>
                             </div>
 
                             <!--Manoranjan news-->
@@ -1267,6 +1288,9 @@
                             <div class="heading">
                                 <h1 class="line">खेलकुद</h1>
                                 <div class="line blue_line one"></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
 
                             <!--khelkud news-->
@@ -1322,6 +1346,9 @@
                             <div class="heading">
                                 <h1 class="line">साहित्य</h1>
                                 <div class="line blue_line one"></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
                             <!--sahitya news-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
@@ -1372,6 +1399,9 @@
                             <div class="heading">
                                 <h1 class="line">विविध</h1>
                                 <div class="line blue_line one"></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
                             <!--Bibid samachar-->
                             <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
@@ -1423,6 +1453,9 @@
                             <div class="heading">
                                 <h1 class="line">खबर</h1>
                                 <div class="line blue_line one"></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
 
                             <!--Khabar news-->

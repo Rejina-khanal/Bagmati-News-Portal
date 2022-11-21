@@ -9,10 +9,73 @@ nav {
     background: linear-gradient(270deg, #C62126 18.39%, #3064AF 86.78%);
 }
 
+.author .line img {
+    margin: 0 10px 5px 1rem;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.heading a {
+    text-decoration: none;
+    color: #3064AF;
+    font-size: 20px;
+    text-align: right;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    right: 9rem;
+}
+
+.samachar_section .top-right {
+    position: absolute;
+    right: 30rem;
+}
+
+.business_section .top-right {
+    position: absolute;
+    right: 30rem;
+}
+
+.artha_section .top-right {
+    position: absolute;
+    right: 30rem;
+}
+
+.swastha_section .top-right {
+    position: absolute;
+    right: 30rem;
+}
+
+.manoranjan_section .top-right {
+    position: absolute;
+    right: 30rem;
+}
+
+
+.author h5 {
+    font-size: 1rem;
+    color: #766F6F;
+}
+
+.author {
+    align-items: center;
+}
 
 nav ul li {
     display: inline-block;
     line-height: 10px
+}
+
+.business_section .heading a {
+    background-color: white;
+    text-decoration: none;
+    color: #3064AF;
+    padding: 2px 22px;
+    border-radius: 12px;
+    cursor: auto;
 }
 
 nav ul li a {
@@ -101,6 +164,45 @@ nav ul li:hover>a {
     nav ul li a {
         padding: 0
     }
+
+    .heading a {
+        text-decoration: none;
+        color: #3064AF;
+        font-size: 15px;
+        text-align: right;
+    }
+
+    /* Top right text */
+    .top-right {
+        position: absolute;
+        right: 2rem;
+    }
+
+    .samachar_section .top-right {
+        position: absolute;
+        right: 11rem;
+        float: inline-end;
+    }
+
+    .business_section .top-right {
+        position: absolute;
+        right: 11rem;
+    }
+
+    .artha_section .top-right {
+        position: absolute;
+        right: 11rem;
+    }
+
+    .swastha_section .top-right {
+        position: absolute;
+        right: 11rem;
+    }
+
+    .manoranjan_section .top-right {
+        position: absolute;
+        right: 11rem;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 575px) {
@@ -164,56 +266,47 @@ nav ul li:hover>a {
     nav ul li a {
         padding: 0
     }
+
+    .heading a {
+        text-decoration: none;
+        color: #3064AF;
+        font-size: 15px;
+        text-align: right;
+    }
+
+    /* Top right text */
+    .top-right {
+        position: absolute;
+        right: 3rem;
+    }
+
+    .samachar_section .top-right {
+        position: absolute;
+        right: 13rem;
+    }
+
+    .business_section .top-right {
+        position: absolute;
+        right: 13rem;
+    }
+
+    .artha_section .top-right {
+        position: absolute;
+        right: 13rem;
+    }
+
+    .swastha_section .top-right {
+        position: absolute;
+        right: 13rem;
+    }
+
+    .manoranjan_section .top-right {
+        position: absolute;
+        right: 13rem;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-
-    /*  .menu-tigger {
-        display: block;
-        position: relative;
-        z-index: 2
-    }
-
-    .hamburger-menu {
-        background: #2D3691;
-        color: red;
-        padding: 5px 1px;
-        height: 40px;
-        width: 50px;
-        float: inline-end;
-        margin-right: 1rem;
-        margin-top: 5px;
-    }
-
-    nav {
-        text-align: center;
-        padding-top: 10px;
-        position: absolute;
-        -webkit-transform: translate(-100%);
-        transform: translate(-100%);
-        right: 0;
-        left: 0;
-        background: #2D3691;
-        height: 100%;
-        -webkit-transition: .3s;
-        transition: .3s;
-        opacity: 0
-    }
-
-    nav.res-menu {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-        opacity: 1
-    }
-
-    nav ul li {
-        display: block;
-        line-height: 40px
-    }
-
-    nav ul li a {
-        padding: 0
-    }*/
     .hamburger-menu {
         color: #fff;
         padding: 10px 0;
@@ -234,6 +327,44 @@ nav ul li:hover>a {
 
     nav {
         text-align: left;
+    }
+
+    .heading a {
+        text-decoration: none;
+        color: #3064AF;
+        font-size: 15px;
+        text-align: right;
+    }
+
+    /* Top right text */
+    .top-right {
+        position: absolute;
+        right: 4rem;
+    }
+
+    .samachar_section .top-right {
+        position: absolute;
+        right: 17rem;
+    }
+
+    .business_section .top-right {
+        position: absolute;
+        right: 17rem;
+    }
+
+    .artha_section .top-right {
+        position: absolute;
+        right: 17rem;
+    }
+
+    .swastha_section .top-right {
+        position: absolute;
+        right: 17rem;
+    }
+
+    .manoranjan_section .top-right {
+        position: absolute;
+        right: 17rem;
     }
 }
 
@@ -259,6 +390,45 @@ nav ul li:hover>a {
     nav {
         text-align: left;
     }
+
+    .heading a {
+        text-decoration: none;
+        color: #3064AF;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    /* Top right text */
+    .top-right {
+        position: absolute;
+        right: 5rem;
+    }
+
+    .samachar_section .top-right {
+        position: absolute;
+        right: 22rem;
+    }
+
+    .business_section .top-right {
+        position: absolute;
+        right: 22rem;
+    }
+
+    .artha_section .top-right {
+        position: absolute;
+        right: 22rem;
+    }
+
+    .swastha_section .top-right {
+        position: absolute;
+        right: 22rem;
+    }
+
+    .manoranjan_section .top-right {
+        position: absolute;
+        right: 22rem;
+    }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -277,6 +447,44 @@ nav ul li:hover>a {
     nav ul li {
         display: inline-block;
         line-height: 5px
+    }
+
+    .heading a {
+        text-decoration: none;
+        color: #3064AF;
+        font-size: 17px;
+        text-align: right;
+    }
+
+    /* Top right text */
+    .top-right {
+        position: absolute;
+        right: 8rem;
+    }
+
+    .samachar_section .top-right {
+        position: absolute;
+        right: 27rem;
+    }
+
+    .business_section .top-right {
+        position: absolute;
+        right: 27rem;
+    }
+
+    .artha_section .top-right {
+        position: absolute;
+        right: 27rem;
+    }
+
+    .swastha_section .top-right {
+        position: absolute;
+        right: 27rem;
+    }
+
+    .manoranjan_section .top-right {
+        position: absolute;
+        right: 27rem;
     }
 }
 
@@ -297,9 +505,40 @@ nav ul li:hover>a {
         display: inline-block;
         line-height: 5px
     }
+
+    /* Top right text */
+    .top-right {
+        position: absolute;
+        right: 9rem;
+    }
+
+    .samachar_section .top-right {
+        position: absolute;
+        right: 33rem;
+    }
+
+    .business_section .top-right {
+        position: absolute;
+        right: 33rem;
+    }
+
+    .artha_section .top-right {
+        position: absolute;
+        right: 33rem;
+    }
+
+    .swastha_section .top-right {
+        position: absolute;
+        right: 33rem;
+    }
+
+    .manoranjan_section .top-right {
+        position: absolute;
+        right: 33rem;
+    }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
     nav {
         text-align: left;
     }
@@ -315,5 +554,67 @@ nav ul li:hover>a {
     nav ul li {
         display: inline-block;
         line-height: 5px
+    }
+
+    .top-right {
+        position: absolute;
+        right: 9rem;
+    }
+
+    .samachar_section .top-right {
+        position: absolute;
+        right: 36rem;
+    }
+
+    .business_section .top-right {
+        position: absolute;
+        right: 36rem;
+    }
+
+    .artha_section .top-right {
+        position: absolute;
+        right: 36rem;
+    }
+
+    .swastha_section .top-right {
+        position: absolute;
+        right: 36rem;
+    }
+
+    .manoranjan_section .top-right {
+        position: absolute;
+        right: 36rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .top-right {
+        position: absolute;
+        right: 9rem;
+    }
+
+    .samachar_section .top-right {
+        position: absolute;
+        right: 53rem;
+    }
+
+    .business_section .top-right {
+        position: absolute;
+        right: 53rem;
+    }
+
+    .artha_section .top-right {
+        position: absolute;
+        right: 53rem;
+    }
+
+    .swastha_section .top-right {
+        position: absolute;
+        right: 53rem;
+    }
+
+    .manoranjan_section .top-right {
+        position: absolute;
+        right: 53rem;
     }
 }
