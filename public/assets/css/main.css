@@ -234,6 +234,20 @@ footer .container {
     position: relative;
 }
 
+/* /*advertisement section*/
+.advertisement_section {
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+/*advertisement image*/
+.advertisement_section img {
+    width: 100%;
+    margin-bottom: 2rem;
+    object-fit: fill;
+}
+
+
 /*media query for mobile view*/
 @media only screen and (max-width: 480px) {
     .dropdown {
@@ -241,28 +255,22 @@ footer .container {
         display: inline-block;
     }
 
+
+
     nav ul .dropdown ul {
-        margin-top: 1rem;
-        padding: 10px 0 0 10px;
+        margin-top: 1px;
+        padding: 10px;
+        margin-left: 7rem;
         background-color: white;
         border-radius: 1px;
     }
 
-    nav ul li .dropdown ul {
-        padding: 0;
-    }
-
-    nav ul li ul li a {
-        display: block;
-        line-height: 0px
-    }
-
     nav ul .dropdown ul li a {
         color: black;
-        padding: 0 0;
+        padding: 2px 0;
         font-size: 10px;
         font-family: 'Poppins';
-        padding-bottom: 0;
+        padding-bottom: 2px;
     }
 
     nav ul .dropdown a {
@@ -450,9 +458,28 @@ footer .container {
     }
 
     .blue_line {
-        border-top: 3px solid #2D3691;
+        border-top: 3px solid #3064AF;
         width: 30px;
     }
+
+    /*advertisement*/
+    .advertisement {
+        padding: 5px 0;
+        margin: 0 1rem;
+    }
+
+    .advertisement_section {
+        margin-bottom: 2px;
+        margin-left: 0;
+    }
+
+    .advertisement_section img {
+        width: 100%;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+
+
 }
 
 /*media query for tablet and larger smart phone*/
@@ -659,6 +686,23 @@ footer .container {
     .blue_line {
         border-top: 3px solid #2D3691;
         width: 40px;
+    }
+
+    /*advertisement*/
+    .advertisement {
+        padding: 5px 0;
+        margin: 0 1rem;
+    }
+
+    .advertisement_section {
+        margin-bottom: 2px;
+        margin-left: 0;
+    }
+
+    .advertisement_section img {
+        width: 100%;
+        margin-bottom: 10px;
+        object-fit: cover;
     }
 
 }

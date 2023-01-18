@@ -1190,9 +1190,9 @@
                                 <!--Manoranjan news heading-->
                                 <h1 class="line">मनोरञ्जन</h1>
                                 <div class="line blue_line one"></div>
-                                 <div class="top-right name"><a href="samachar.html" class="line"><i
-                                    class="fa-solid fa-square fa-xs"></i>
-                                थप</a></div>
+                                <div class="top-right name"><a href="samachar.html" class="line"><i
+                                            class="fa-solid fa-square fa-xs"></i>
+                                        थप</a></div>
                             </div>
 
                             <!--Manoranjan news-->
